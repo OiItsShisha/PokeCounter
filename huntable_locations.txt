@@ -1,0 +1,75 @@
+Route 1
+Route 2
+Route 3
+Route 4
+Route 5
+Route 6
+Route 7
+Route 8
+Route 9
+Route 10
+Route 11
+Route 12
+Route 13
+Route 14
+Route 15
+Route 16
+Route 17
+Route 18
+Route 19
+Route 20
+Route 21
+Route 22
+Route 23
+Route 24
+Route 25
+Viridian Forest
+Mt. Moon 1F
+Mt. Moon B1F
+Mt. Moon B2F
+Cerulean Cave 1F
+Cerulean Cave 2F
+Cerulean Cave B1F
+Rock Tunnel 1
+Rock Tunnel 2
+Power Plant
+Lavender Town Graveyard
+Digletts Cave
+Safari Area 1
+Safari Area 2
+Safari Area 3
+Seafoam 1F
+Seafoam B1F
+Seafoam B2F
+Seafoam B3F
+Seafoam B4F
+Vulcan Island Shore
+Vulcan Path
+Vulcan Forest
+Mt. Summer 1F
+Mt. Summer 1F 2
+Mt. Summer 2F
+Mt. Summer 2F 2
+Mt. Summer 3F
+Mt. Summer 3F 2
+Mt. Summer 3F 2 2
+Mt. Summer 4F
+Mt. Summer 4F 2
+Mt. Summer Exterior
+Vulcan Cove
+Vulcan Cave B1F
+Vulcan Cave B2F
+Vulcan Cavern
+Vulcan Cavern Cave
+Vulcan Plaza
+Vulcan Fair
+Alto Mare 
+National Park
+Alto Mare Secret Garden
+Alto Mare Chained
+Alto Mare East Avenue
+Alto Mare West Avenue
+Kalijodo Cave B1F
+Kalijodo Cave B2F
+Kalijodo Path
+Kalijodo Lake

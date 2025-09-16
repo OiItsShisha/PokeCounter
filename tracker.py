@@ -21,7 +21,7 @@ class Tracker:
         pytesseract.pytesseract.tesseract_cmd = (
             "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
         )
-        with open("./data/poke_list.txt", "r") as f:
+        with open("poke_list.txt", "r") as f:
             self.poke_list = [line.strip() for line in f.readlines()]
         self.current_encounter = False
         self.session_table = session_table
@@ -94,7 +94,6 @@ class Tracker:
                     for pixel_channel in diff.getdata()
                     for pixel_value in pixel_channel
                 )
-
                 if diff_sum > threshold:
                     return (
                         True,
@@ -229,8 +228,6 @@ class Tracker:
         """If there was a change detected between screenshots, this is invoked.
 
         Currently, this pulls out the wild pokemon (name) from the encounter box.
-
-        TODO: Add support for pulling out the map name (also add map name list)
 
         Args:
             ss:

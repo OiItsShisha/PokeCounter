@@ -1,15 +1,3 @@
-"""
-TODO:
-    Add a popup window as warning for deleting data for both session and history
-    Add option to track trace'd abilities
-    Figure out how to have the app appear over the top of the PRO application
-    Sort out Morning day and night to update the table
-    Try to add a notification for encounter
-    Try to screenread PRO client specifically
-        - may be able to use pyautogui instead of PIL
-    Add Session timer
-"""
-
 import tkinter as tk
 import pandas as pd
 from tkinter import ttk

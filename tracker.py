@@ -1,16 +1,14 @@
 from PIL import ImageGrab, ImageChops
-import pyautogui
+from PIL import Image
 from threading import Thread, Event
 import pytesseract
 import pandas as pd
 from pandastable import Table, TableModel
 from pathlib import Path
-
-"""
-TODO
-    - Add proper closing protocol for X button of application
-"""
-
+import win32gui
+import win32ui
+from ctypes import windll
+import time
 
 class Tracker:
     def __init__(
@@ -44,9 +42,15 @@ class Tracker:
         worker_thread.start()
 
     def stop_tracker(self, tracking_button):
+        print("stopping threads")
         self.stop_threads.set()
         if worker_thread.is_alive():
-            worker_thread.join()
+            print("joining threads")
+            win32gui.PostQuitMessage(0)
+            worker_thread.join(timeout=1)
+            if worker_thread.is_alive():
+                print("Thread did nto terminate gracefully")
+        print("fixing button")
         if tracking_button["state"] == "disabled":
             tracking_button["state"] = "normal"
         self.stop_threads.clear()
@@ -63,14 +67,55 @@ class Tracker:
                 self.run_action_on_change(detect_ss)
             event.wait(timeout=0.1)
 
-    def detect_screen_change(self, region=None, threshold=10):
+    def get_application_window_screenshot(self):
+        """
+        Takes a screenshot of a minimized window given its title.
+        """
+        hwnd = win32gui.FindWindow(None, "PROClient")
+
+        # Get the window dimensions
+        left, top, right, bottom = win32gui.GetWindowRect(hwnd)
+        width = right - left
+        height = bottom - top
+
+        # Create a device context for the window
+        hwndDC = win32gui.GetWindowDC(hwnd)
+        mfcDC = win32ui.CreateDCFromHandle(hwndDC)
+        saveDC = mfcDC.CreateCompatibleDC()
+
+        # Create a bitmap to store the screenshot
+        saveBitMap = win32ui.CreateBitmap()
+        saveBitMap.CreateCompatibleBitmap(mfcDC, width, height)
+
+        # Select the bitmap into the device context
+        saveDC.SelectObject(saveBitMap)
+
+        # Copy the window's content to the bitmap
+        # Note: PrintWindow is often more reliable for minimized/hidden windows
+        windll.user32.PrintWindow(hwnd, saveDC.GetHandleAttrib(), 0)
+
+        # Convert the bitmap to a PIL Image
+        bmpinfo = saveBitMap.GetInfo()
+        bmpstr = saveBitMap.GetBitmapBits(True)
+        img = Image.frombuffer(
+            'RGB',
+            (bmpinfo['bmWidth'], bmpinfo['bmHeight']),
+            bmpstr, 'raw', 'BGRX', 0, 1
+        )
+
+        # Clean up resources
+        win32gui.DeleteObject(saveBitMap.GetHandle())
+        saveDC.DeleteDC()
+        mfcDC.DeleteDC()
+        win32gui.ReleaseDC(hwnd, hwndDC)
+
+        return img
+
+    def detect_screen_change(self, threshold=10):
         """
         Detects changes in a specified region of the screen.
 
         Args:
-            region (tuple, optional): A tuple (left, top, width, height) defining
-                                    the area of the screen to monitor. If None,
-                                    the entire screen is monitored.
             threshold (int): The maximum difference allowed between pixels
                             before a change is detected. Lower values mean higher sensitivity.
 
@@ -78,10 +123,10 @@ class Tracker:
             bool: True if a significant change is detected, False otherwise.
         """
         # Capture the initial screenshot
-        initial_screenshot = pyautogui.screenshot(region=region)
+        initial_screenshot = self.get_application_window_screenshot()
 
         while True:
-            current_screenshot = pyautogui.screenshot(region=region)
+            current_screenshot = self.get_application_window_screenshot()
             # Compare the two screenshots
             diff = ImageChops.difference(initial_screenshot, current_screenshot)
             # Calculate the sum of absolute differences for all pixels
@@ -102,6 +147,7 @@ class Tracker:
 
             # Update the initial screenshot for the next comparison
             initial_screenshot = current_screenshot
+            time.sleep(3)
 
     def update_percentage(self):
         session_total = self.session_table.model.df["Total"].sum()

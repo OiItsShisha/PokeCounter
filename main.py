@@ -20,7 +20,17 @@ from tracker import Tracker
 
 
 class MainApplication(tk.Tk):
+    """
+    Main application window for the Pokemon Encounter Tracker.
+
+    This class creates the main window and all the UI elements,
+    and handles the main logic of the application.
+    """
+
     def __init__(self):
+        """
+        Initializes the main application window.
+        """
         self.root = tk.Tk()
         self.root.title("Pokemon Encounter Tracker")
         self.top = tk.Frame(self.root)
@@ -53,6 +63,9 @@ class MainApplication(tk.Tk):
         self.json_name = None
 
     def create_elements(self):
+        """
+        Creates all the UI elements in the main window.
+        """
         # Combo box
         self.top_cb = ttk.Combobox(self.top, values=self.huntable_locations)
         self.top_cb.set("Select a Hunting Location")
@@ -110,6 +123,9 @@ class MainApplication(tk.Tk):
         self.history_table.show()
 
     def clear_session_data(self):
+        """
+        Clears the session data table.
+        """
         self.session_table.model.df = pd.DataFrame(
             {
                 "Pokemon": ["Default"],
@@ -123,6 +139,9 @@ class MainApplication(tk.Tk):
         self.session_table.redraw()
 
     def clear_historical(self):
+        """
+        Clears the historical data table.
+        """
         self.history_table.model.df = pd.DataFrame(
             {
                 "Pokemon": ["Default"],

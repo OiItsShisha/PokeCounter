@@ -61,7 +61,7 @@ class Tracker:
             )  # Sensitivity Threshold
             if detect_f:
                 self.run_action_on_change(detect_ss)
-            event.wait(timeout=0.1)
+            event.wait(timeout=0.5)
 
     def detect_screen_change(self, region=None, threshold=10):
         """
@@ -235,19 +235,19 @@ class Tracker:
         Returns:
             None
         """
-
         bbox = (0, 0, 1920, 1080)  # Currently grabbing personal primary monitor
         ss = ImageGrab.grab(bbox=bbox).convert("L")  # Screencapture and greyscale it
         text = pytesseract.image_to_string(
             ss, config="--psm 6"
         )  # Parse the text from ss
-        encounter = False  # set true if parsed text has wild
-        clean_nl = text.split("\n")
-        for i in clean_nl:
+        wild_encounter_flag = False  # set true if parsed text has wild
+        clean_newl = text.split("\n")
+        # Check if the text is a wild encounter.
+        for i in clean_newl:
             if "Wild" in i:
-                encounter = True
-                poke = i
-        if encounter:
+                wild_encounter_flag = True
+                poke_line = i.split(" ")
+        if wild_encounter_flag:
             if not self.current_encounter:
                 location_text = pytesseract.image_to_string(ss, config="--psm 3")
                 clean_location_text = location_text.split("\n")
@@ -255,9 +255,8 @@ class Tracker:
                     if i in self.huntable_locations:
                         self.auto_change_location(i)
                 self.current_encounter = True
-                temp = poke.split(" ")
-                for k in temp:
-                    if k in self.poke_list:
-                        self.update_table(k)
+                for word in poke_line:
+                    if word in self.poke_list:
+                        self.update_table(word)
         else:
             self.current_encounter = False

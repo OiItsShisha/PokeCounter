@@ -73,3 +73,43 @@ Kalijodo Cave B1F
 Kalijodo Cave B2F
 Kalijodo Path
 Kalijodo Lake
+Old Chateau Dining Room
+Haunted Cave
+Festival Town
+Cemetary Island
+Illusory Forest
+Lost Seacoast
+Road of Night
+Sacred Forest
+Murky Path
+Murky Town
+Ghoul Swamp
+Unison Mountain 1F
+Unison Mountain 2F
+Unison Mountain 2F
+Unison Mountain East Summit
+Unison Mountain West Summit
+Unison Mountain Summit
+Angel Hill
+Serenia Village
+Serenia Village Tunnel
+Unholy Sands
+Unholy Sands Pyramid East Chamber
+Unholy Sands Pyramid West Chamber
+Unholy Sands South
+Unholy Sands West
+Sweetsland
+Bittersweet Cave 1F
+Bittersweet Cave 2F
+Bittersweet Cave 3F
+Bittersweet Cave 4F
+Dreadtown
+Spooky Path
+Necropolis
+Dark Valley
+Haunted Cave
+Haunted Cave Depths 1
+Haunted Cave Depths 2
+Haunted House 1F
+Haunted House 2F
+Haunted House 3F

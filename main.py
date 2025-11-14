@@ -12,7 +12,7 @@ TODO:
 
 import tkinter as tk
 import pandas as pd
-from tkinter import ttk
+from tkinter import ttk, messagebox
 from pathlib import Path
 from pandastable import Table
 import time
@@ -20,7 +20,17 @@ from tracker import Tracker
 
 
 class MainApplication(tk.Tk):
+    """
+    Main application window for the Pokemon Encounter Tracker.
+
+    This class creates the main window and all the UI elements,
+    and handles the main logic of the application.
+    """
+
     def __init__(self):
+        """
+        Initializes the main application window.
+        """
         self.root = tk.Tk()
         self.root.title("Pokemon Encounter Tracker")
         self.top = tk.Frame(self.root)
@@ -53,6 +63,9 @@ class MainApplication(tk.Tk):
         self.json_name = None
 
     def create_elements(self):
+        """
+        Creates all the UI elements in the main window.
+        """
         # Combo box
         self.top_cb = ttk.Combobox(self.top, values=self.huntable_locations)
         self.top_cb.set("Select a Hunting Location")
@@ -110,31 +123,45 @@ class MainApplication(tk.Tk):
         self.history_table.show()
 
     def clear_session_data(self):
-        self.session_table.model.df = pd.DataFrame(
-            {
-                "Pokemon": ["Default"],
-                "Total": [0],
-                "Total Percent": [0],
-                "Morning": [0],
-                "Day": [0],
-                "Night": [0],
-            }
-        )
-        self.session_table.redraw()
+        """
+        Clears the session data table.
+        """
+        if messagebox.askyesno(
+            "Clear Session Data", "Are you sure you wish you clear this data?"
+        ):
+            self.session_table.model.df = pd.DataFrame(
+                {
+                    "Pokemon": ["Default"],
+                    "Total": [0],
+                    "Total Percent": [0],
+                    "Morning": [0],
+                    "Day": [0],
+                    "Night": [0],
+                }
+            )
+            self.session_table.redraw()
 
     def clear_historical(self):
-        self.history_table.model.df = pd.DataFrame(
-            {
-                "Pokemon": ["Default"],
-                "Total": [0],
-                "Total Percent": [0],
-                "Morning": [0],
-                "Day": [0],
-                "Night": [0],
-            }
-        )
-        self.history_table.model.df.to_json(self.json_name, orient="records", index=4)
-        self.history_table.redraw()
+        """
+        Clears the historical data table.
+        """
+        if messagebox.askyesno(
+            "Clear Historical Data", "Are you sure you wish you clear this data?"
+        ):
+            self.history_table.model.df = pd.DataFrame(
+                {
+                    "Pokemon": ["Default"],
+                    "Total": [0],
+                    "Total Percent": [0],
+                    "Morning": [0],
+                    "Day": [0],
+                    "Night": [0],
+                }
+            )
+            self.history_table.model.df.to_json(
+                self.json_name, orient="records", index=4
+            )
+            self.history_table.redraw()
 
     def load_location_data(self) -> None:
         """Method used as callable to update the table data

@@ -13,9 +13,18 @@ TODO
 
 
 class Tracker:
+    """
+    Tracker class for the Pokemon Encounter Tracker.
+
+    This class handles the screen reading and encounter tracking logic.
+    """
+
     def __init__(
         self, session_table, historical_table, json_name, session_label, history_label, huntable_locations
     ):
+        """
+        Initializes the Tracker class.
+        """
         self.thread = None
         self.stop_threads = Event()
         pytesseract.pytesseract.tesseract_cmd = (
@@ -34,6 +43,9 @@ class Tracker:
         self.current_location = None
 
     def start_tracker(self, tracking_button):
+        """
+        Starts the screen tracker thread.
+        """
         # To continuously monitor and trigger an action:
         tracking_button["state"] = "disabled"
         global worker_thread
@@ -44,6 +56,9 @@ class Tracker:
         worker_thread.start()
 
     def stop_tracker(self, tracking_button):
+        """
+        Stops the screen tracker thread.
+        """
         self.stop_threads.set()
         if worker_thread.is_alive():
             worker_thread.join()
@@ -55,6 +70,9 @@ class Tracker:
         )
 
     def start_tracker_worker(self, event):
+        """
+        The worker method for the screen tracker thread.
+        """
         while not event.is_set():
             detect_f, detect_ss = self.detect_screen_change(
                 threshold=1000
@@ -104,6 +122,9 @@ class Tracker:
             initial_screenshot = current_screenshot
 
     def update_percentage(self):
+        """
+        Updates the percentage of each pokemon seen in the session and historical tables.
+        """
         session_total = self.session_table.model.df["Total"].sum()
         history_total = self.historical_table.model.df["Total"].sum()
         self.session_table.model.df["Total Percent"] = (
@@ -120,6 +141,9 @@ class Tracker:
         )
 
     def update_table(self, encounter_name):
+        """
+        Updates the session and historical tables with the new encounter.
+        """
         session_seen = list(self.session_table.model.df["Pokemon"])
         history_seen = list(self.historical_table.model.df["Pokemon"])
         if encounter_name in session_seen:
@@ -191,6 +215,9 @@ class Tracker:
         )
 
     def auto_change_location(self, location_str):
+        """
+        Automatically changes the location when the player moves to a new location.
+        """
         if self.current_location is None:
             self.current_location = location_str
         elif self.current_location != location_str:

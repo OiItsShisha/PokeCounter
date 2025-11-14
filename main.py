@@ -12,7 +12,7 @@ TODO:
 
 import tkinter as tk
 import pandas as pd
-from tkinter import ttk
+from tkinter import ttk, messagebox
 from pathlib import Path
 from pandastable import Table
 import time
@@ -126,34 +126,42 @@ class MainApplication(tk.Tk):
         """
         Clears the session data table.
         """
-        self.session_table.model.df = pd.DataFrame(
-            {
-                "Pokemon": ["Default"],
-                "Total": [0],
-                "Total Percent": [0],
-                "Morning": [0],
-                "Day": [0],
-                "Night": [0],
-            }
-        )
-        self.session_table.redraw()
+        if messagebox.askyesno(
+            "Clear Session Data", "Are you sure you wish you clear this data?"
+        ):
+            self.session_table.model.df = pd.DataFrame(
+                {
+                    "Pokemon": ["Default"],
+                    "Total": [0],
+                    "Total Percent": [0],
+                    "Morning": [0],
+                    "Day": [0],
+                    "Night": [0],
+                }
+            )
+            self.session_table.redraw()
 
     def clear_historical(self):
         """
         Clears the historical data table.
         """
-        self.history_table.model.df = pd.DataFrame(
-            {
-                "Pokemon": ["Default"],
-                "Total": [0],
-                "Total Percent": [0],
-                "Morning": [0],
-                "Day": [0],
-                "Night": [0],
-            }
-        )
-        self.history_table.model.df.to_json(self.json_name, orient="records", index=4)
-        self.history_table.redraw()
+        if messagebox.askyesno(
+            "Clear Historical Data", "Are you sure you wish you clear this data?"
+        ):
+            self.history_table.model.df = pd.DataFrame(
+                {
+                    "Pokemon": ["Default"],
+                    "Total": [0],
+                    "Total Percent": [0],
+                    "Morning": [0],
+                    "Day": [0],
+                    "Night": [0],
+                }
+            )
+            self.history_table.model.df.to_json(
+                self.json_name, orient="records", index=4
+            )
+            self.history_table.redraw()
 
     def load_location_data(self) -> None:
         """Method used as callable to update the table data

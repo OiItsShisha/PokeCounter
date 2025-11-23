@@ -1,9 +1,7 @@
 """
 TODO:
-    Add a popup window as warning for deleting data for both session and history
     Add option to track trace'd abilities
     Figure out how to have the app appear over the top of the PRO application
-    Sort out Morning day and night to update the table
     Try to add a notification for encounter
     Try to screenread PRO client specifically
         - may be able to use pyautogui instead of PIL
@@ -15,7 +13,6 @@ import pandas as pd
 from tkinter import ttk, messagebox
 from pathlib import Path
 from pandastable import Table
-import time
 from tracker import Tracker
 
 
@@ -65,6 +62,9 @@ class MainApplication(tk.Tk):
             self.sinnoh_locations = f.readlines()
             self.sinnoh_locations = [x.strip() for x in self.sinnoh_locations]
 
+        land_spawns_df = pd.read_csv("land_spawns.csv")
+        surf_spawns_df = pd.read_csv("surf_spawns.csv")
+        self.all_spawns = pd.concat([land_spawns_df, surf_spawns_df])
         self.all_locations = self.kanto_locations + self.johto_locations + self.sinnoh_locations
 
         self.create_elements()
@@ -118,21 +118,17 @@ class MainApplication(tk.Tk):
         session_default_table = pd.DataFrame(
             {
                 "Pokemon": ["Default"],
+                "Rarity": ["Default"],
                 "Total": [0],
                 "Total Percent": [0],
-                "Morning": [0],
-                "Day": [0],
-                "Night": [0],
             }
         )
         history_default_table = pd.DataFrame(
             {
                 "Pokemon": ["Default"],
+                "Rarity": ["Default"],
                 "Total": [0],
                 "Total Percent": [0],
-                "Morning": [0],
-                "Day": [0],
-                "Night": [0],
             }
         )
 
@@ -162,14 +158,14 @@ class MainApplication(tk.Tk):
         if messagebox.askyesno(
             "Clear Session Data", "Are you sure you wish you clear this data?"
         ):
+            poke_list = self.session_table.model.df["Pokemon"].to_list()
+            rarity = self.session_table.model.df["tier"].to_list()
             self.session_table.model.df = pd.DataFrame(
                 {
-                    "Pokemon": ["Default"],
-                    "Total": [0],
-                    "Total Percent": [0],
-                    "Morning": [0],
-                    "Day": [0],
-                    "Night": [0],
+                    "Pokemon": poke_list,
+                    "Rarity": rarity,
+                    "Total": [0] * len(poke_list),
+                    "Total Percent": [0] * len(poke_list),
                 }
             )
             self.session_table.redraw()
@@ -181,14 +177,14 @@ class MainApplication(tk.Tk):
         if messagebox.askyesno(
             "Clear Historical Data", "Are you sure you wish you clear this data?"
         ):
+            poke_list = self.history_table.model.df["Pokemon"].to_list()
+            rarity = self.history_table.model.df["tier"].to_list()
             self.history_table.model.df = pd.DataFrame(
                 {
-                    "Pokemon": ["Default"],
-                    "Total": [0],
-                    "Total Percent": [0],
-                    "Morning": [0],
-                    "Day": [0],
-                    "Night": [0],
+                    "Pokemon": poke_list,
+                    "Rarity": rarity,
+                    "Total": [0] * len(poke_list),
+                    "Total Percent": [0] * len(poke_list),
                 }
             )
             self.history_table.model.df.to_json(
@@ -215,27 +211,42 @@ class MainApplication(tk.Tk):
         self.json_name = (
             Path(__file__).resolve().parent / "data" / f"{self.json_name}.json"
         )
+        temp = self.all_spawns[self.all_spawns["Map"] == self.location_cb.get()]
+
         self.tracker = Tracker(
             self.session_table,
             self.history_table,
             self.json_name,
             self.session_label,
             self.historical_label,
-            self.all_locations
+            self.all_locations,
+            self.all_spawns
         )
         if not Path(self.json_name).exists():
             t_df = pd.DataFrame(
                 {
-                    "Pokemon": [0],
-                    "Total": [0],
-                    "Total Percent": [0],
-                    "Morning": [0],
-                    "Day": [0],
-                    "Night": [0],
+                    "Pokemon": temp["Pokemon"].to_list(),
+                    "Rarity": temp["Tier"].to_list(),
+                    "Total": [0] * len(temp),
+                    "Total Percent": [0] * len(temp),
                 }
             )
             t_df.to_json(self.json_name, orient="records", indent=4)
         update_df = pd.read_json(self.json_name)
+        self.session_label.config(
+            text=f"Session Tracker | Total Encounters: 0"
+        )
+        self.session_table.model.df = pd.DataFrame(
+            {
+                "Pokemon": temp["Pokemon"].to_list(),
+                "Rarity": temp["Tier"].to_list(),
+                "Total": [0] * len(temp),
+                "Total Percent": [0] * len(temp),
+
+            }
+        )
+        self.session_table.redraw()
+
         self.historical_label.config(
             text=f"Historical Tracker | Total Encounters: {update_df["Total"].sum()}"
         )

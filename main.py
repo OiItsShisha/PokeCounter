@@ -69,38 +69,44 @@ class MainApplication(tk.Tk):
         """
         Creates all the UI elements in the main window.
         """
+        # Create frames for dropdowns and buttons
+        dropdown_frame = tk.Frame(self.top)
+        dropdown_frame.pack(side=tk.TOP)
+        button_frame = tk.Frame(self.top)
+        button_frame.pack(side=tk.TOP)
+
         # Region Combo box
-        self.region_cb = ttk.Combobox(self.top, values=["Kanto", "Johto"])
+        self.region_cb = ttk.Combobox(dropdown_frame, values=["Kanto", "Johto"])
         self.region_cb.set("Select a Region")
         self.region_cb.pack(side=tk.LEFT)
         self.region_cb.bind("<<ComboboxSelected>>", self.update_locations)
 
         # Location Combo box
-        self.location_cb = ttk.Combobox(self.top, values=[])
+        self.location_cb = ttk.Combobox(dropdown_frame, values=[])
         self.location_cb.set("Select a Hunting Location")
         self.location_cb.pack(side=tk.LEFT)
 
         # Buttons
         self.location_button = tk.Button(
-            self.top, text="Show Selection", command=self.load_location_data
+            button_frame, text="Show Selection", command=self.load_location_data
         )
         self.location_button.pack(side=tk.LEFT)
-        self.tracking_button = tk.Button(self.top, text="Begin Tracking")
+        self.tracking_button = tk.Button(button_frame, text="Begin Tracking")
         self.tracking_button.config(
             command=lambda: self.tracker.start_tracker(self.tracking_button)
         )
         self.tracking_button.pack(side=tk.LEFT)
-        self.end_tracking_bt = tk.Button(self.top, text="Stop Tracking")
+        self.end_tracking_bt = tk.Button(button_frame, text="Stop Tracking")
         self.end_tracking_bt.config(
             command=lambda: self.tracker.stop_tracker(self.tracking_button)
         )
         self.end_tracking_bt.pack(side=tk.LEFT)
         self.clear_session_bt = tk.Button(
-            self.top, text="Clear Session Data", command=self.clear_session_data
+            button_frame, text="Clear Session Data", command=self.clear_session_data
         )
         self.clear_session_bt.pack(side=tk.LEFT)
         self.clear_historical_bt = tk.Button(
-            self.top, text="Clear Historical Data", command=self.clear_historical
+            button_frame, text="Clear Historical Data", command=self.clear_historical
         )
         self.clear_historical_bt.pack(side=tk.LEFT)
 

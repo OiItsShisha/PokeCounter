@@ -3,7 +3,6 @@ import pyautogui
 from threading import Thread, Event
 import pytesseract
 import pandas as pd
-from pandastable import Table, TableModel
 from pathlib import Path
 
 """
@@ -20,7 +19,7 @@ class Tracker:
     """
 
     def __init__(
-        self, session_table, historical_table, json_name, session_label, history_label, huntable_locations
+        self, session_table, historical_table, json_name, session_label, history_label, huntable_locations, all_spawns
     ):
         """
         Initializes the Tracker class.
@@ -30,8 +29,6 @@ class Tracker:
         pytesseract.pytesseract.tesseract_cmd = (
             "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
         )
-        with open("poke_list.txt", "r") as f:
-            self.poke_list = [line.strip() for line in f.readlines()]
         self.current_encounter = False
         self.session_table = session_table
         self.historical_table = historical_table
@@ -41,6 +38,7 @@ class Tracker:
         self.history_label = history_label
         self.huntable_locations = huntable_locations
         self.current_location = None
+        self.all_spawns = all_spawns
 
     def start_tracker(self, tracking_button):
         """
@@ -144,66 +142,23 @@ class Tracker:
         """
         Updates the session and historical tables with the new encounter.
         """
-        session_seen = list(self.session_table.model.df["Pokemon"])
-        history_seen = list(self.historical_table.model.df["Pokemon"])
-        if encounter_name in session_seen:
+        self.session_table.model.df.loc[
+            self.session_table.model.df["Pokemon"] == encounter_name, "Total"
+        ] = (
             self.session_table.model.df.loc[
                 self.session_table.model.df["Pokemon"] == encounter_name, "Total"
-            ] = (
-                self.session_table.model.df.loc[
-                    self.session_table.model.df["Pokemon"] == encounter_name, "Total"
-                ]
-                + 1
-            )
-        elif "Default" in session_seen and encounter_name not in session_seen:
-            self.session_table.model.df = pd.DataFrame(
-                {
-                    "Pokemon": [encounter_name],
-                    "Total": [1],
-                    "Total Percent": [0],
-                    "Morning": [0],
-                    "Day": [0],
-                    "Night": [0],
-                }
-            )
-        else:
-            self.session_table.model.df.loc[len(self.session_table.model.df)] = {
-                "Pokemon": encounter_name,
-                "Total": 1,
-                "Total Percent": 0,
-                "Morning": 0,
-                "Day": 0,
-                "Night": 0,
-            }
-        if encounter_name in list(self.historical_table.model.df["Pokemon"]):
+            ]
+            + 1
+        )
+
+        self.historical_table.model.df.loc[
+            self.historical_table.model.df["Pokemon"] == encounter_name, "Total"
+        ] = (
             self.historical_table.model.df.loc[
                 self.historical_table.model.df["Pokemon"] == encounter_name, "Total"
-            ] = (
-                self.historical_table.model.df.loc[
-                    self.historical_table.model.df["Pokemon"] == encounter_name, "Total"
-                ]
-                + 1
-            )
-        elif "Default" in history_seen and encounter_name not in history_seen:
-            self.historical_table.model.df = pd.DataFrame(
-                {
-                    "Pokemon": [encounter_name],
-                    "Total": [1],
-                    "Total Percent": [0],
-                    "Morning": [0],
-                    "Day": [0],
-                    "Night": [0],
-                }
-            )
-        else:
-            self.historical_table.model.df.loc[len(self.historical_table.model.df)] = {
-                "Pokemon": encounter_name,
-                "Total": 1,
-                "Total Percent": 0,
-                "Morning": 0,
-                "Day": 0,
-                "Night": 0,
-            }
+            ]
+            + 1
+        )
         self.update_percentage()
         self.session_table.redraw()
         self.historical_table.redraw()
@@ -229,15 +184,14 @@ class Tracker:
             self.json_name = (
                 Path(__file__).resolve().parent / "data" / f"{self.json_name}.json"
             )
+            temp = self.all_spawns[self.all_spawns["Map"] == self.location_cb.get()]
             if not Path(self.json_name).exists():
                 t_df = pd.DataFrame(
                     {
-                        "Pokemon": [0],
-                        "Total": [0],
-                        "Total Percent": [0],
-                        "Morning": [0],
-                        "Day": [0],
-                        "Night": [0],
+                        "Pokemon": temp["Pokemon"].to_list(),
+                        "Rarity": temp["Tier"].to_list(),
+                        "Total": [0] * len(temp),
+                        "Total Percent": [0] * len(temp),
                     }
                 )
                 t_df.to_json(self.json_name, orient="records", indent=4)
@@ -283,7 +237,7 @@ class Tracker:
                         self.auto_change_location(i)
                 self.current_encounter = True
                 for word in poke_line:
-                    if word in self.poke_list:
+                    if word in self.session_table.model.df["Pokemon"].to_list():
                         self.update_table(word)
         else:
             self.current_encounter = False

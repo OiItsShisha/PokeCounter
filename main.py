@@ -51,13 +51,16 @@ class MainApplication(tk.Tk):
 
         self.history_table = None
         self.session_table = None
-        self.top_cb = None
+        self.location_cb = None
         self.location_button = None
         self.tracking_button = None
         self.tracker = None
         with open("huntable_locations.txt", "r") as f:
             self.huntable_locations = f.readlines()
             self.huntable_locations = [x.strip() for x in self.huntable_locations]
+        with open("johto_locations.txt", "r") as f:
+            self.johto_locations = f.readlines()
+            self.johto_locations = [x.strip() for x in self.johto_locations]
 
         self.create_elements()
         self.json_name = None
@@ -66,10 +69,16 @@ class MainApplication(tk.Tk):
         """
         Creates all the UI elements in the main window.
         """
-        # Combo box
-        self.top_cb = ttk.Combobox(self.top, values=self.huntable_locations)
-        self.top_cb.set("Select a Hunting Location")
-        self.top_cb.pack()
+        # Region Combo box
+        self.region_cb = ttk.Combobox(self.top, values=["Kanto", "Johto"])
+        self.region_cb.set("Select a Region")
+        self.region_cb.pack(side=tk.LEFT)
+        self.region_cb.bind("<<ComboboxSelected>>", self.update_locations)
+
+        # Location Combo box
+        self.location_cb = ttk.Combobox(self.top, values=[])
+        self.location_cb.set("Select a Hunting Location")
+        self.location_cb.pack(side=tk.LEFT)
 
         # Buttons
         self.location_button = tk.Button(
@@ -121,6 +130,17 @@ class MainApplication(tk.Tk):
 
         self.history_table = Table(self.bottom_t2, dataframe=history_default_table)
         self.history_table.show()
+
+    def update_locations(self, event):
+        """
+        Updates the location combobox based on the selected region.
+        """
+        selected_region = self.region_cb.get()
+        if selected_region == "Kanto":
+            self.location_cb['values'] = self.huntable_locations
+        elif selected_region == "Johto":
+            self.location_cb['values'] = self.johto_locations
+        self.location_cb.set("Select a Hunting Location")
 
     def clear_session_data(self):
         """
@@ -177,7 +197,7 @@ class MainApplication(tk.Tk):
             None
         """
         # Pulling the map poke data from the selector and loading the corresponding JSON file.
-        loc_name = [x.lower() for x in self.top_cb.get().split(" ")]
+        loc_name = [x.lower() for x in self.location_cb.get().split(" ")]
         self.json_name = "_".join(loc_name).strip()
         self.json_name = (
             Path(__file__).resolve().parent / "data" / f"{self.json_name}.json"

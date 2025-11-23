@@ -55,12 +55,17 @@ class MainApplication(tk.Tk):
         self.location_button = None
         self.tracking_button = None
         self.tracker = None
-        with open("huntable_locations.txt", "r") as f:
-            self.huntable_locations = f.readlines()
-            self.huntable_locations = [x.strip() for x in self.huntable_locations]
+        with open("kanto_locations.txt", "r") as f:
+            self.kanto_locations = f.readlines()
+            self.kanto_locations = [x.strip() for x in self.kanto_locations]
         with open("johto_locations.txt", "r") as f:
             self.johto_locations = f.readlines()
             self.johto_locations = [x.strip() for x in self.johto_locations]
+        with open("sinnoh_locations.txt", "r") as f:
+            self.sinnoh_locations = f.readlines()
+            self.sinnoh_locations = [x.strip() for x in self.sinnoh_locations]
+
+        self.all_locations = self.kanto_locations + self.johto_locations + self.sinnoh_locations
 
         self.create_elements()
         self.json_name = None
@@ -76,7 +81,7 @@ class MainApplication(tk.Tk):
         button_frame.pack(side=tk.TOP)
 
         # Region Combo box
-        self.region_cb = ttk.Combobox(dropdown_frame, values=["Kanto", "Johto"])
+        self.region_cb = ttk.Combobox(dropdown_frame, values=["Kanto", "Johto", "Sinnoh"])
         self.region_cb.set("Select a Region")
         self.region_cb.pack(side=tk.LEFT)
         self.region_cb.bind("<<ComboboxSelected>>", self.update_locations)
@@ -143,9 +148,11 @@ class MainApplication(tk.Tk):
         """
         selected_region = self.region_cb.get()
         if selected_region == "Kanto":
-            self.location_cb['values'] = self.huntable_locations
+            self.location_cb['values'] = self.kanto_locations
         elif selected_region == "Johto":
             self.location_cb['values'] = self.johto_locations
+        elif selected_region == "Sinnoh":
+            self.location_cb['values'] = self.sinnoh_locations
         self.location_cb.set("Select a Hunting Location")
 
     def clear_session_data(self):
@@ -214,7 +221,7 @@ class MainApplication(tk.Tk):
             self.json_name,
             self.session_label,
             self.historical_label,
-            self.huntable_locations
+            self.all_locations
         )
         if not Path(self.json_name).exists():
             t_df = pd.DataFrame(

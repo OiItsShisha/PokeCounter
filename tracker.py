@@ -4,14 +4,7 @@ from threading import Thread, Event
 import pytesseract
 import pandas as pd
 from pathlib import Path
-import sys
 import pygetwindow as gw
-
-# Conditionally import Windows-specific libraries
-if sys.platform == 'win32':
-    import win32gui
-    import win32ui
-    import win32con
 
 """
 TODO
@@ -79,11 +72,6 @@ class Tracker:
         """
         The worker method for the screen tracker thread.
         """
-        # This hidden window capture implementation is for Windows only.
-        if sys.platform != 'win32':
-            print("ERROR: Hidden window capture is only supported on Windows.")
-            return
-
         pro_window = None
         while not pro_window and not event.is_set():
             try:
@@ -102,23 +90,27 @@ class Tracker:
 
         while not event.is_set():
             try:
-                # Check if the window handle is still valid
-                if not win32gui.IsWindow(pro_window._hWnd):
+                if not pro_window.isAlive:
                     print("PROClient window was closed. Stopping tracker.")
                     break
-            except Exception:  # Catches errors if window is destroyed
+                region = (pro_window.left, pro_window.top, pro_window.width, pro_window.height)
+            except gw.PyGetWindowException:
                 print("PROClient window not found. Stopping tracker.")
                 break
 
+            if region[2] <= 0 or region[3] <= 0:
+                event.wait(timeout=0.5)
+                continue
+
             detect_f, detect_ss = self.detect_screen_change(
-                hwnd=pro_window._hWnd,
+                region=region,
                 threshold=1000
             )
             if detect_f:
                 self.run_action_on_change(detect_ss)
             event.wait(timeout=0.5)
 
-    def _capture_window_win32(self, hwnd):
+    def detect_screen_change(self, region, threshold=10):
         """
         Captures a screenshot of a window using the Win32 API.
         This method works even if the window is hidden or occluded, but not minimized.

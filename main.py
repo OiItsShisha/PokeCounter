@@ -159,7 +159,7 @@ class MainApplication(tk.Tk):
             "Clear Session Data", "Are you sure you wish you clear this data?"
         ):
             poke_list = self.session_table.model.df["Pokemon"].to_list()
-            rarity = self.session_table.model.df["tier"].to_list()
+            rarity = self.session_table.model.df["Tier"].to_list()
             self.session_table.model.df = pd.DataFrame(
                 {
                     "Pokemon": poke_list,
@@ -178,7 +178,7 @@ class MainApplication(tk.Tk):
             "Clear Historical Data", "Are you sure you wish you clear this data?"
         ):
             poke_list = self.history_table.model.df["Pokemon"].to_list()
-            rarity = self.history_table.model.df["tier"].to_list()
+            rarity = self.history_table.model.df["Tier"].to_list()
             self.history_table.model.df = pd.DataFrame(
                 {
                     "Pokemon": poke_list,

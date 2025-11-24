@@ -4,6 +4,7 @@ from threading import Thread, Event
 import pytesseract
 import pandas as pd
 from pathlib import Path
+import pygetwindow as gw
 
 """
 TODO
@@ -71,15 +72,45 @@ class Tracker:
         """
         The worker method for the screen tracker thread.
         """
+        pro_window = None
+        while not pro_window and not event.is_set():
+            try:
+                pro_window_list = gw.getWindowsWithTitle("PROClient")
+                if pro_window_list:
+                    pro_window = pro_window_list[0]
+                else:
+                    print("PROClient window not found. Retrying in 5 seconds...")
+                    event.wait(timeout=5)
+            except Exception as e:
+                print(f"An error occurred while finding the window: {e}")
+                event.wait(timeout=5)
+
+        if not pro_window:
+            return
+
         while not event.is_set():
+            try:
+                if not pro_window.isAlive:
+                    print("PROClient window was closed. Stopping tracker.")
+                    break
+                region = (pro_window.left, pro_window.top, pro_window.width, pro_window.height)
+            except gw.PyGetWindowException:
+                print("PROClient window not found. Stopping tracker.")
+                break
+
+            if region[2] <= 0 or region[3] <= 0:
+                event.wait(timeout=0.5)
+                continue
+
             detect_f, detect_ss = self.detect_screen_change(
+                region=region,
                 threshold=1000
-            )  # Sensitivity Threshold
+            )
             if detect_f:
                 self.run_action_on_change(detect_ss)
             event.wait(timeout=0.5)
 
-    def detect_screen_change(self, region=None, threshold=10):
+    def detect_screen_change(self, region, threshold=10):
         """
         Detects changes in a specified region of the screen.
 
@@ -205,7 +236,7 @@ class Tracker:
             self.historical_table.redraw()
             self.current_location = location_str
 
-    def run_action_on_change(self, ss) -> None:
+    def run_action_on_change(self, ss):
         """If there was a change detected between screenshots, this is invoked.
 
         Currently, this pulls out the wild pokemon (name) from the encounter box.
@@ -216,8 +247,7 @@ class Tracker:
         Returns:
             None
         """
-        bbox = (0, 0, 1920, 1080)  # Currently grabbing personal primary monitor
-        ss = ImageGrab.grab(bbox=bbox).convert("L")  # Screencapture and greyscale it
+        ss = ss.convert("L")  # Screencapture and greyscale it
         text = pytesseract.image_to_string(
             ss, config="--psm 6"
         )  # Parse the text from ss

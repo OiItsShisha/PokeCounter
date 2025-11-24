@@ -1,10 +1,17 @@
-from PIL import ImageGrab, ImageChops
+from PIL import Image, ImageChops
 import pyautogui
 from threading import Thread, Event
 import pytesseract
 import pandas as pd
 from pathlib import Path
+import sys
 import pygetwindow as gw
+
+# Conditionally import Windows-specific libraries
+if sys.platform == 'win32':
+    import win32gui
+    import win32ui
+    import win32con
 
 """
 TODO
@@ -72,6 +79,11 @@ class Tracker:
         """
         The worker method for the screen tracker thread.
         """
+        # This hidden window capture implementation is for Windows only.
+        if sys.platform != 'win32':
+            print("ERROR: Hidden window capture is only supported on Windows.")
+            return
+
         pro_window = None
         while not pro_window and not event.is_set():
             try:
@@ -90,45 +102,89 @@ class Tracker:
 
         while not event.is_set():
             try:
-                if not pro_window.isAlive:
+                # Check if the window handle is still valid
+                if not win32gui.IsWindow(pro_window._hWnd):
                     print("PROClient window was closed. Stopping tracker.")
                     break
-                region = (pro_window.left, pro_window.top, pro_window.width, pro_window.height)
-            except gw.PyGetWindowException:
+            except Exception:  # Catches errors if window is destroyed
                 print("PROClient window not found. Stopping tracker.")
                 break
 
-            if region[2] <= 0 or region[3] <= 0:
-                event.wait(timeout=0.5)
-                continue
-
             detect_f, detect_ss = self.detect_screen_change(
-                region=region,
+                hwnd=pro_window._hWnd,
                 threshold=1000
             )
             if detect_f:
                 self.run_action_on_change(detect_ss)
             event.wait(timeout=0.5)
 
-    def detect_screen_change(self, region, threshold=10):
+    def _capture_window_win32(self, hwnd):
         """
-        Detects changes in a specified region of the screen.
+        Captures a screenshot of a window using the Win32 API.
+        This method works even if the window is hidden or occluded, but not minimized.
+        NOTE: This implementation is untested due to environment limitations.
+        """
+        try:
+            left, top, right, bot = win32gui.GetClientRect(hwnd)
+            w = right - left
+            h = bot - top
+
+            if w <= 0 or h <= 0:
+                return None
+
+            hwndDC = win32gui.GetWindowDC(hwnd)
+            mfcDC = win32ui.CreateDCFromHandle(hwndDC)
+            saveDC = mfcDC.CreateCompatibleDC()
+
+            saveBitMap = win32ui.CreateBitmap()
+            saveBitMap.CreateCompatibleBitmap(mfcDC, w, h)
+
+            saveDC.SelectObject(saveBitMap)
+
+            result = win32gui.PrintWindow(hwnd, saveDC.GetSafeHdc(), win32con.PW_CLIENTONLY)
+
+            bmpinfo = saveBitMap.GetInfo()
+            bmpstr = saveBitMap.GetBitmapBits(True)
+
+            im = Image.frombuffer(
+                'RGB',
+                (bmpinfo['bmWidth'], bmpinfo['bmHeight']),
+                bmpstr, 'raw', 'BGRX', 0, 1)
+
+            win32gui.DeleteObject(saveBitMap.GetHandle())
+            saveDC.DeleteDC()
+            mfcDC.DeleteDC()
+            win32gui.ReleaseDC(hwnd, hwndDC)
+
+            return im if result == 1 else None
+        except Exception as e:
+            print(f"Error capturing window: {e}")
+            return None
+
+    def detect_screen_change(self, hwnd, threshold=10):
+        """
+        Detects changes in a specified window using Win32 API.
 
         Args:
-            region (tuple, optional): A tuple (left, top, width, height) defining
-                                    the area of the screen to monitor. If None,
-                                    the entire screen is monitored.
+            hwnd (int): The handle of the window to monitor.
             threshold (int): The maximum difference allowed between pixels
                             before a change is detected. Lower values mean higher sensitivity.
 
         Returns:
-            bool: True if a significant change is detected, False otherwise.
+            tuple: A tuple containing a boolean indicating if a change was detected
+                   and the screenshot image.
         """
         # Capture the initial screenshot
-        initial_screenshot = pyautogui.screenshot(region=region)
+        initial_screenshot = self._capture_window_win32(hwnd)
 
         while True:
-            current_screenshot = pyautogui.screenshot(region=region)
+            current_screenshot = self._capture_window_win32(hwnd)
+
+            # If capture fails (e.g., window minimized), return no change.
+            if initial_screenshot is None or current_screenshot is None:
+                initial_screenshot = current_screenshot
+                return (False, None)
+
             # Compare the two screenshots
             diff = ImageChops.difference(initial_screenshot, current_screenshot)
             # Calculate the sum of absolute differences for all pixels

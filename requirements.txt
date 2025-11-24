@@ -3,3 +3,4 @@ pytesseract
 pyautogui
 pygetwindow
 Pillow
+pywin32 ; sys_platform == 'win32'

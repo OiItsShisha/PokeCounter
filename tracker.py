@@ -169,42 +169,6 @@ class Tracker:
             text=f"Historical Tracker | Total Encounters: {self.historical_table.model.df["Total"].sum()}"
         )
 
-    def auto_change_location(self, location_str):
-        """
-        Automatically changes the location when the player moves to a new location.
-        """
-        if self.current_location is None:
-            self.current_location = location_str
-        elif self.current_location != location_str:
-            self.historical_table.model.df.to_json(
-                self.json_name, orient="records", indent=4
-            )
-            loc_str = [x.lower() for x in location_str.split(" ")]
-            self.json_name = "_".join(loc_str).strip()
-            self.json_name = (
-                Path(__file__).resolve().parent / "data" / f"{self.json_name}.json"
-            )
-            temp = self.all_spawns[self.all_spawns["Map"] == self.location_cb.get()]
-            if not Path(self.json_name).exists():
-                t_df = pd.DataFrame(
-                    {
-                        "Pokemon": temp["Pokemon"].to_list(),
-                        "Rarity": temp["Tier"].to_list(),
-                        "Total": [0] * len(temp),
-                        "Total Percent": [0] * len(temp),
-                    }
-                )
-                t_df.to_json(self.json_name, orient="records", indent=4)
-            update_df = pd.read_json(self.json_name)
-            self.history_label.config(
-                text=f"Historical Tracker | Total Encounters: {update_df["Total"].sum()}"
-            )
-            self.historical_table.model.df = update_df.sort_values(
-                by="Total Percent", ascending=False
-            )
-            self.historical_table.redraw()
-            self.current_location = location_str
-
     def run_action_on_change(self, ss) -> None:
         """If there was a change detected between screenshots, this is invoked.
 
@@ -230,11 +194,6 @@ class Tracker:
                 poke_line = i.split(" ")
         if wild_encounter_flag:
             if not self.current_encounter:
-                location_text = pytesseract.image_to_string(ss, config="--psm 3")
-                clean_location_text = location_text.split("\n")
-                for i in clean_location_text:
-                    if i in self.huntable_locations:
-                        self.auto_change_location(i)
                 self.current_encounter = True
                 for word in poke_line:
                     if word in self.session_table.model.df["Pokemon"].to_list():

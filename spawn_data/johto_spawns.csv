@@ -50,28 +50,30 @@ Blackthorn City,Poliwag,Water
 Blackthorn City,Poliwhirl,Water
 Blackthorn City,Quagsire,Water
 Blackthorn City,Wooper,Water
-Bug Catching Area,Yanma,Land
-Bug Catching Area,Weedle,Land
-Bug Catching Area,Volbeat,Land
-Bug Catching Area,Wurmple,Land
-Bug Catching Area,Spinarak,Land
-Bug Catching Area,Burmy,Land
 Bug Catching Area,Caterpie,Land
-Bug Catching Area,Combee,Land
-Bug Catching Area,Cutiefly,Land
-Bug Catching Area,Dwebble,Land
-Bug Catching Area,Heracross,Land
-Bug Catching Area,Illumise,Land
-Bug Catching Area,Joltik,Land
-Bug Catching Area,Kricketot,Land
-Bug Catching Area,Larvesta,Land
-Bug Catching Area,Nincada,Land
+Bug Catching Area,Weedle,Land
 Bug Catching Area,Paras,Land
 Bug Catching Area,Venonat,Land
-Bug Catching Area,Ledyba,Land
 Bug Catching Area,Scyther,Land
-Bug Catching Area,Scatterbug,Land
 Bug Catching Area,Pinsir,Land
+Bug Catching Area,Ledyba,Land
+Bug Catching Area,Spinarak,Land
+Bug Catching Area,Yanma,Land
+Bug Catching Area,Heracross,Land
+Bug Catching Area,Wurmple,Land
+Bug Catching Area,Nincada,Land
+Bug Catching Area,Volbeat,Land
+Bug Catching Area,Illumise,Land
+Bug Catching Area,Kricketot,Land
+Bug Catching Area,Burmy,Land
+Bug Catching Area,Combee,Land
+Bug Catching Area,Dwebble,Land
+Bug Catching Area,Joltik,Land
+Bug Catching Area,Larvesta,Land
+Bug Catching Area,Scatterbug,Land
+Bug Catching Area,Cutiefly,Land
+Bug Catching Area,Dewpider,Land
+Bug Catching Area,Grubbin,Land
 Bug Catching Multiplayer Area,Nincada,Land
 Bug Catching Multiplayer Area,Burmy,Land
 Bug Catching Multiplayer Area,Caterpie,Land
@@ -94,6 +96,8 @@ Bug Catching Multiplayer Area,Pinsir,Land
 Bug Catching Multiplayer Area,Paras,Land
 Bug Catching Multiplayer Area,Kricketot,Land
 Bug Catching Multiplayer Area,Scyther,Land
+Bug Catching Multiplayer Area,Dewpider,Land
+Bug Catching Multiplayer Area,Grubbin,Land
 Burned Tower Floor 2,Koffing,Land
 Burned Tower Floor 2,Spinda,Land
 Burned Tower Floor 2,Weezing,Land

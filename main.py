@@ -22,8 +22,10 @@ def resource_path(relative_path):
         str: The absolute path string mapped correctly depending on compilation execution.
     """
     if hasattr(sys, "_MEIPASS"):
-        base_path = Path(sys._MEIPASS)
+        # PyInstaller extracts bundled files to the sys._MEIPASS root directory
+        base_path = Path(sys._MEIPASS) / "spawn_data"
     else:
+        # Development mode path relative to workspace
         base_path = Path(".").resolve() / "spawn_data"
 
     return str(base_path / relative_path)
@@ -485,7 +487,6 @@ class MainApplication(tk.Tk):
                     "Total Percent": [0] * len(temp),
                 })
             t_df.to_json(self.json_name, orient="records", indent=4)
-
         self.tracker = Tracker(
             self.session_table,
             self.history_table,
@@ -501,6 +502,8 @@ class MainApplication(tk.Tk):
         if "Terrain" not in update_df.columns:
             terrain_data = update_df.merge(temp, on="Pokemon")["Terrain"].to_list()
             update_df["Terrain"] = terrain_data
+        if list(update_df.columns) != ["Pokemon", "Terrain", "Total", "Total Percent"]:
+            update_df = update_df[["Pokemon", "Terrain", "Total", "Total Percent"]]
 
         self.session_label.config(text="Session Tracker | Total Encounters: 0")
         self.session_table.model.df = pd.DataFrame({

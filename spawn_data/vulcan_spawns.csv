@@ -1,0 +1,304 @@
+Map,Pokemon,Terrain
+Alto Mare,Shellder,Water
+Alto Mare,Horsea,Water
+Alto Mare,Staryu,Water
+Alto Mare,Magikarp,Water
+Alto Mare,Marill,Water
+Alto Mare,Wingull,Water
+Alto Mare,Mantyke,Water
+Alto Mare,Panpour,Water
+Alto Mare,Clauncher,Water
+
+Alto Mare National Park,Pikachu,Land
+Alto Mare National Park,Venonat,Land
+Alto Mare National Park,Farfetchd,Land
+Alto Mare National Park,Scyther,Land
+Alto Mare National Park,Sentret,Land
+Alto Mare National Park,Furret,Land
+Alto Mare National Park,Shroomish,Land
+Alto Mare National Park,Roselia,Land
+Alto Mare National Park,Chespin,Land
+Alto Mare National Park,Clauncher,Water
+Alto Mare National Park,Staryu,Water
+Alto Mare National Park,Magikarp,Water
+Alto Mare National Park,Marill,Water
+Alto Mare National Park,Remoraid,Water
+Alto Mare National Park,Lotad,Water
+Alto Mare National Park,Wingull,Water
+Alto Mare National Park,Luvdisc,Water
+
+Alto Mare Secret Garden,Growlithe,Land
+Alto Mare Secret Garden,Abra,Land
+Alto Mare Secret Garden,Ponyta,Land
+Alto Mare Secret Garden,Sentret,Land
+Alto Mare Secret Garden,Pineco,Land
+Alto Mare Secret Garden,Nuzleaf,Land
+Alto Mare Secret Garden,Bonsly,Land
+Alto Mare Secret Garden,Munchlax,Land
+Alto Mare Secret Garden,Pansage,Land
+Alto Mare Secret Garden,Slowpoke,Water
+Alto Mare Secret Garden,Horsea,Water
+Alto Mare Secret Garden,Magikarp,Water
+Alto Mare Secret Garden,Marill,Water
+Alto Mare Secret Garden,Azumarill,Water
+Alto Mare Secret Garden,Wingull,Water
+Alto Mare Secret Garden,Azurill,Water
+
+Alto Mare West Avenue,Wingull,Water
+Alto Mare West Avenue,Pelipper,Water
+
+Kalijodo Cave B1F,Rattata,Land
+Kalijodo Cave B1F,Raticate,Land
+Kalijodo Cave B1F,Pikachu,Land
+Kalijodo Cave B1F,Marill,Land
+Kalijodo Cave B1F,Misdreavus,Land
+Kalijodo Cave B1F,Whismur,Land
+Kalijodo Cave B1F,Loudred,Land
+Kalijodo Cave B1F,Pawniard,Land
+Kalijodo Cave B1F,Rattata,Land
+
+Kalijodo Cave B2F,Rattata,Land
+Kalijodo Cave B2F,Raticate,Land
+Kalijodo Cave B2F,Golbat,Land
+Kalijodo Cave B2F,Abra,Land
+Kalijodo Cave B2F,Marill,Land
+Kalijodo Cave B2F,Bronzor,Land
+Kalijodo Cave B2F,Gible,Land
+Kalijodo Cave B2F,Chespin,Land
+Kalijodo Cave B2F,Sandshrew-Alolan,Land
+Kalijodo Cave B2F,Horsea,Water
+Kalijodo Cave B2F,Seadra,Water
+Kalijodo Cave B2F,Magikarp,Water
+Kalijodo Cave B2F,Marill,Water
+Kalijodo Cave B2F,Octillery,Water
+Kalijodo Cave B2F,Spheal,Water
+Kalijodo Cave B2F,Oshawott,Water
+Kalijodo Cave B2F,Vanillite,Water
+
+Kalijodo Lake,Squirtle,Water
+Kalijodo Lake,Shellder,Water
+Kalijodo Lake,Horsea,Water
+Kalijodo Lake,Magikarp,Water
+Kalijodo Lake,Marill,Water
+Kalijodo Lake,Wingull,Water
+Kalijodo Lake,Piplup,Water
+Kalijodo Lake,Panpour,Water
+
+
+Kalijodo Path,Raticate,Land
+Kalijodo Path,Vulpix,Land
+Kalijodo Path,Ponyta,Land
+Kalijodo Path,Sentret,Land
+Kalijodo Path,Dustox,Land
+Kalijodo Path,Shroomish,Land
+Kalijodo Path,Munchlax,Land
+Kalijodo Path,Grimer-Alolan,Land
+
+Mt. Summer 1F,Rattata,Land
+Mt. Summer 1F,Ponyta,Land
+Mt. Summer 1F,Furret,Land
+Mt. Summer 1F,Torchic,Land
+Mt. Summer 1F,Whismur,Land
+Mt. Summer 1F,Numel,Land
+Mt. Summer 1F,Pansear,Land
+Mt. Summer 1F,Fletchling,Land
+
+Mt. Summer 1F 2,Rattata,Land
+Mt. Summer 1F 2,Ponyta,Land
+Mt. Summer 1F 2,Furret,Land
+Mt. Summer 1F 2,Torchic,Land
+Mt. Summer 1F 2,Whismur,Land
+Mt. Summer 1F 2,Numel,Land
+Mt. Summer 1F 2,Pansear,Land
+Mt. Summer 1F 2,Fletchling,Land
+
+Mt. Summer 2F,Rattata,Land
+Mt. Summer 2F,Raticate,Land
+Mt. Summer 2F,Vulpix,Land
+Mt. Summer 2F,Ponyta,Land
+Mt. Summer 2F,Gastly,Land
+Mt. Summer 2F,Ralts,Land
+Mt. Summer 2F,Shroomish,Land
+Mt. Summer 2F,Fennekin,Land
+
+Mt. Summer 2F 2,Rattata,Land
+Mt. Summer 2F 2,Raticate,Land
+Mt. Summer 2F 2,Vulpix,Land
+Mt. Summer 2F 2,Ponyta,Land
+Mt. Summer 2F 2,Gastly,Land
+Mt. Summer 2F 2,Ralts,Land
+Mt. Summer 2F 2,Shroomish,Land
+Mt. Summer 2F 2,Fennekin,Land
+
+Mt. Summer 3F,Charmander,Land
+Mt. Summer 3F,Raticate,Land
+Mt. Summer 3F,Kadabra,Land
+Mt. Summer 3F,Ponyta,Land
+Mt. Summer 3F,Gastly,Land
+Mt. Summer 3F,Sentret,Land
+Mt. Summer 3F,Whismur,Land
+Mt. Summer 3F,Pansear,Land
+Mt. Summer 3F,Darumaka,Land
+
+Mt. Summer 3F 2,Charmander,Land
+Mt. Summer 3F 2,Raticate,Land
+Mt. Summer 3F 2,Kadabra,Land
+Mt. Summer 3F 2,Ponyta,Land
+Mt. Summer 3F 2,Gastly,Land
+Mt. Summer 3F 2,Sentret,Land
+Mt. Summer 3F 2,Whismur,Land
+Mt. Summer 3F 2,Pansear,Land
+Mt. Summer 3F 2,Darumaka,Land
+
+Mt. Summer 4F,Raticate,Land
+Mt. Summer 4F,Ponyta,Land
+Mt. Summer 4F,Cubone,Land
+Mt. Summer 4F,Teddiursa,Land
+Mt. Summer 4F,Loudred,Land
+Mt. Summer 4F,Torkoal,Land
+Mt. Summer 4F,Tepig,Land
+Mt. Summer 4F,Pansear,Land
+Mt. Summer 4F,Marowak-Alolan,Land
+
+Mt. Summer 4F 2,Raticate,Land
+Mt. Summer 4F 2,Ponyta,Land
+Mt. Summer 4F 2,Cubone,Land
+Mt. Summer 4F 2,Teddiursa,Land
+Mt. Summer 4F 2,Loudred,Land
+Mt. Summer 4F 2,Torkoal,Land
+Mt. Summer 4F 2,Tepig,Land
+Mt. Summer 4F 2,Pansear,Land
+Mt. Summer 4F 2,Marowak-Alolan,Land
+
+Mt. Summer Exterior,Vulpix,Land
+Mt. Summer Exterior,Growlithe,Land
+Mt. Summer Exterior,Farfetchd,Land
+Mt. Summer Exterior,Tailow,Land
+Mt. Summer Exterior,Wingull,Land
+Mt. Summer Exterior,Ralts,Land
+Mt. Summer Exterior,Torkoal,Land
+Mt. Summer Exterior,Petilil,Land
+
+Mt. Summer Exterior 2,Vulpix,Land
+Mt. Summer Exterior 2,Growlithe,Land
+Mt. Summer Exterior 2,Farfetchd,Land
+Mt. Summer Exterior 2,Tailow,Land
+Mt. Summer Exterior 2,Wingull,Land
+Mt. Summer Exterior 2,Ralts,Land
+Mt. Summer Exterior 2,Torkoal,Land
+Mt. Summer Exterior 2,Petilil,Land
+
+Vulcan Cave B1F,Raticate,Land
+Vulcan Cave B1F,Farfetchd,Land
+Vulcan Cave B1F,Rhyhorn,Land
+Vulcan Cave B1F,Teddiursa,Land
+Vulcan Cave B1F,Torkoal,Land
+Vulcan Cave B1F,Bronzor,Land
+Vulcan Cave B1F,Munchlax,Land
+Vulcan Cave B1F,Pawniard,Land
+
+Vulcan Cave B2F,Raticate,Land
+Vulcan Cave B2F,Vulpix,Land
+Vulcan Cave B2F,Farfetchd,Land
+Vulcan Cave B2F,Gastly,Land
+Vulcan Cave B2F,Sneasel,Land
+Vulcan Cave B2F,Wingull,Land
+Vulcan Cave B2F,Fennekin,Land
+Vulcan Cave B2F,Vulpix-Alolan,Land
+Vulcan Cave B2F,Squirtle,Water
+Vulcan Cave B2F,Slowbro,Water
+Vulcan Cave B2F,Horsea,Water
+Vulcan Cave B2F,Lapras,Water
+Vulcan Cave B2F,Marill,Water
+Vulcan Cave B2F,Remoraid,Water
+Vulcan Cave B2F,Octillery,Water
+Vulcan Cave B2F,Wingull,Water
+
+Vulcan Cavern,Raticate,Land
+Vulcan Cavern,Vulpix,Land
+Vulcan Cavern,Growlithe,Land
+Vulcan Cavern,Ponyta,Land
+Vulcan Cavern,Gastly,Land
+Vulcan Cavern,Shroomish,Land
+Vulcan Cavern,Drilbur,Land
+Vulcan Cavern,Geodude-Alolan,Land
+
+Vulcan Cavern Cave,Raticate,Land
+Vulcan Cavern Cave,Geodude,Land
+Vulcan Cavern Cave,Farfetchd,Land
+Vulcan Cavern Cave,Torkoal,Land
+Vulcan Cavern Cave,Bronzor,Land
+Vulcan Cavern Cave,Pansear,Land
+Vulcan Cavern Cave,Darumaka,Land
+Vulcan Cavern Cave,Diglett-Alolan,Land
+
+Vulcan Cove,Rattata,Land
+Vulcan Cove,Farfetchd,Land
+Vulcan Cove,Krabby,Land
+Vulcan Cove,Wingull,Land
+Vulcan Cove,Torkoal,Land
+Vulcan Cove,Gible,Land
+Vulcan Cove,Oshawott,Land
+Vulcan Cove,Panpour,Land
+Vulcan Cove,Krabby,Water
+Vulcan Cove,Gyarados,Water
+Vulcan Cove,Totodile,Water
+Vulcan Cove,Marill,Water
+Vulcan Cove,Wingull,Water
+Vulcan Cove,Mantyke,Water
+Vulcan Cove,Oshawott,Water
+Vulcan Cove,Panpour,Water
+
+Vulcan Island Shore,Tentacool,Water
+Vulcan Island Shore,Horsea,Water
+Vulcan Island Shore,Remoraid,Water
+Vulcan Island Shore,Wingull,Water
+Vulcan Island Shore,Ducklett,Water
+Vulcan Island Shore,Froakie,Water
+Vulcan Island Shore,Raichu-Alolan,Water
+
+Vulcan Fair,Vulpix,Land
+Vulcan Fair,Venonat,Land
+Vulcan Fair,Kadabra,Land
+Vulcan Fair,Cubone,Land
+Vulcan Fair,Furret,Land
+Vulcan Fair,Wingull,Land
+Vulcan Fair,Shroomish,Land
+Vulcan Fair,Vanillite,Land
+Vulcan Fair,Meowth-Alolan,Land
+
+Vulcan Forest,Pikachu,Land
+Vulcan Forest,Sentret,Land
+Vulcan Forest,Furret,Land
+Vulcan Forest,Tailow,Land
+Vulcan Forest,Shroomish,Land
+Vulcan Forest,Snivy,Land
+Vulcan Forest,Pansage,Land
+Vulcan Forest,Cutiefly,Land
+
+Vulcan Lava Pit,Raticate,Land
+Vulcan Lava Pit,Vulpix,Land
+Vulcan Lava Pit,Growlithe,Land
+Vulcan Lava Pit,Ponyta,Land
+Vulcan Lava Pit,Slugma,Land
+Vulcan Lava Pit,Torkoal,Land
+Vulcan Lava Pit,Tepig,Land
+Vulcan Lava Pit,Darumaka,Land
+
+Vulcan Path,Rapidash,Land
+Vulcan Path,Farfetchd,Land
+Vulcan Path,Tangela,Land
+Vulcan Path,Scyther,Land
+Vulcan Path,Sentret,Land
+Vulcan Path,Furret,Land
+Vulcan Path,Yanma,Land
+Vulcan Path,Fletchling,Land
+
+Vulcan Plaza,Vulpix,Land
+Vulcan Plaza,Kadabra,Land
+Vulcan Plaza,Exeggcute,Land
+Vulcan Plaza,Furret,Land
+Vulcan Plaza,Wingull,Land
+Vulcan Plaza,Bunnelby,Land
+Vulcan Plaza,Espurr,Land
+Vulcan Plaza,Exeggutor-Alolan,Land

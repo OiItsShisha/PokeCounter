@@ -1,0 +1,1414 @@
+Map,Pokemon,Terrain
+Abandoned Ship B1F Room 3,Magikarp,Water
+Abandoned Ship B1F Room 3,Tentacruel,Water
+Abandoned Ship B1F Room 3,Tentacool,Water
+
+Crater Town,Alomomola,Water
+Crater Town,Corphish,Water
+Crater Town,Goldeen,Water
+Crater Town,Horsea,Water
+Crater Town,Kingler,Water
+Crater Town,Shellder,Water
+Crater Town,Slowking,Water
+Crater Town,Wingull,Water
+
+Crater Town,Abra,Land
+Crater Town,Farfetchd,Land
+Crater Town,Torkoal,Land
+Crater Town,Slugma,Land
+Crater Town,Litwick,Land
+Crater Town,Rattata,Land
+Crater Town,Magneton,Land
+Crater Town,Scyther,Land
+
+Crater Town Shore,Kingler,Land
+Crater Town Shore,Ducklett,Land
+Crater Town Shore,Poliwhirl,Land
+Crater Town Shore,Sandile,Land
+Crater Town Shore,Shellos,Land
+Crater Town Shore,Wingull,Land
+Crater Town Shore,Wooper,Land
+Crater Town Shore,Golduck,Land
+Crater Town Shore,Wingull,Water
+Crater Town Shore,Buizel,Water
+Crater Town Shore,Ducklett,Water
+Crater Town Shore,Feebas,Water
+Crater Town Shore,Gyarados,Water
+Crater Town Shore,Seadra,Water
+Crater Town Shore,Seaking,Water
+Crater Town Shore,Binacle,Water
+
+Crater Town Tunnel,Bronzor,Land
+Crater Town Tunnel,Gible,Land
+Crater Town Tunnel,Klink,Land
+Crater Town Tunnel,Machoke,Land
+Crater Town Tunnel,Makuhita,Land
+Crater Town Tunnel,Torkoal,Land
+Crater Town Tunnel,Wooper,Land
+Crater Town Tunnel,Zubat,Land
+
+Dewford Town,Wailmer,Water
+Dewford Town,Tentacool,Water
+Dewford Town,Wingull,Water
+Dewford Town,Skrelp,Water
+Dewford Town,Pelipper,Water
+Dewford Town,Magikarp,Water
+Dewford Town,Krabby,Water
+
+Dragonspiral Tower 1F,Graveler,Land
+Dragonspiral Tower 1F,Zubat,Land
+Dragonspiral Tower 1F,Rhyhorn,Land
+Dragonspiral Tower 1F,Machop,Land
+Dragonspiral Tower 1F,Druddigon,Land
+Dragonspiral Tower 1F,Teddiursa,Land
+Dragonspiral Tower 1F,Tauros,Land
+Dragonspiral Tower 1F,Golett,Land
+
+Dragonspiral Tower 2F,Lillipup,Land
+Dragonspiral Tower 2F,Swinub,Land
+Dragonspiral Tower 2F,Teddiursa,Land
+Dragonspiral Tower 2F,Solrock,Land
+Dragonspiral Tower 2F,Mightyena,Land
+Dragonspiral Tower 2F,Mienfoo,Land
+Dragonspiral Tower 2F,Meditite,Land
+Dragonspiral Tower 2F,Marill,Land
+
+Dragonspiral Tower 3F,Zubat,Land
+Dragonspiral Tower 3F,Sandslash,Land
+Dragonspiral Tower 3F,Pansear,Land
+Dragonspiral Tower 3F,Linoone,Land
+Dragonspiral Tower 3F,Drilbur,Land
+Dragonspiral Tower 3F,Cubchoo,Land
+Dragonspiral Tower 3F,Ursaring,Land
+Dragonspiral Tower 3F,Trapinch,Land
+
+Dragonspiral Tower 4F,Bronzor,Land
+Dragonspiral Tower 4F,Clefairy,Land
+Dragonspiral Tower 4F,Duskull,Land
+Dragonspiral Tower 4F,Goomy,Land
+Dragonspiral Tower 4F,Lunatone,Land
+Dragonspiral Tower 4F,Slowpoke,Land
+Dragonspiral Tower 4F,Psyduck,Land
+Dragonspiral Tower 4F,Mareep,Land
+
+Dragonspiral Tower 5F,Pansage,Land
+Dragonspiral Tower 5F,Rhyhorn,Land
+Dragonspiral Tower 5F,Deerling,Land
+Dragonspiral Tower 5F,Axew,Land
+Dragonspiral Tower 5F,Geodude,Land
+Dragonspiral Tower 5F,Sandshrew,Land
+Dragonspiral Tower 5F,Teddiursa,Land
+Dragonspiral Tower 5F,Zubat,Land
+
+Dragonspiral Tower 6F,Mankey,Land
+Dragonspiral Tower 6F,Dratini,Land
+Dragonspiral Tower 6F,Farfetchd,Land
+Dragonspiral Tower 6F,Panpour,Land
+Dragonspiral Tower 6F,Piloswine,Land
+Dragonspiral Tower 6F,Sandshrew,Land
+Dragonspiral Tower 6F,Sentret,Land
+Dragonspiral Tower 6F,Bagon,Land
+
+Dragonspiral Tower Exterior,Pansear,Land
+Dragonspiral Tower Exterior,Karrablast,Land
+Dragonspiral Tower Exterior,Haunter,Land
+Dragonspiral Tower Exterior,Watchog,Land
+Dragonspiral Tower Exterior,Venomoth,Land
+Dragonspiral Tower Exterior,Tepig,Land
+Dragonspiral Tower Exterior,Starly,Land
+Dragonspiral Tower Exterior,Scatterbug,Land
+Dragonspiral Tower Exterior,Carvanha,Water
+Dragonspiral Tower Exterior,Ducklett,Water
+Dragonspiral Tower Exterior,Horsea,Water
+Dragonspiral Tower Exterior,Magikarp,Water
+Dragonspiral Tower Exterior,Marill,Water
+Dragonspiral Tower Exterior,Oshawott,Water
+Dragonspiral Tower Exterior,Panpour,Water
+Dragonspiral Tower Exterior,Frillish,Water
+Dragonspiral Tower Exterior,Poliwag,Water
+
+Eindoak Town,Lillipup,Land
+Eindoak Town,Watchog,Land
+Eindoak Town,Snivy,Land
+Eindoak Town,Shelmet,Land
+Eindoak Town,Patrat,Land
+Eindoak Town,Pansage,Land
+Eindoak Town,Natu,Land
+Eindoak Town,Meowth,Land
+
+Eindoak Waterway,Lillipup,Land
+Eindoak Waterway,Magby,Land
+Eindoak Waterway,Munchlax,Land
+Eindoak Waterway,Numel,Land
+Eindoak Waterway,Sandshrew,Land
+Eindoak Waterway,Sentret,Land
+Eindoak Waterway,Skitty,Land
+Eindoak Waterway,Vulpix,Land
+Eindoak Waterway,Marill,Water
+Eindoak Waterway,Psyduck,Water
+Eindoak Waterway,Spheal,Water
+Eindoak Waterway,Staryu,Water
+Eindoak Waterway,Goomy,Water
+Eindoak Waterway,Golduck,Water
+Eindoak Waterway,Tentacruel,Water
+Eindoak Waterway,Tentacool,Water
+
+Enyor Island Forest,Snorunt,Land
+Enyor Island Forest,Zigzagoon,Land
+Enyor Island Forest,Swinub,Land
+Enyor Island Forest,Snover,Land
+Enyor Island Forest,Bergmite,Land
+Enyor Island Forest,Sneasel,Land
+Enyor Island Forest,Sentret,Land
+Enyor Island Forest,Piloswine,Land
+
+Eumi Island Burned Tower,Torkoal,Land
+Eumi Island Burned Tower,Vulpix,Land
+Eumi Island Burned Tower,Numel,Land
+Eumi Island Burned Tower,Raticate,Land
+Eumi Island Burned Tower,Kadabra,Land
+Eumi Island Burned Tower,Gastly,Land
+Eumi Island Burned Tower,Fennekin,Land
+Eumi Island Burned Tower,Mightyena,Land
+
+Eumi Island Temple Entrance,Chimecho,Land
+Eumi Island Temple Entrance,Meditite,Land
+Eumi Island Temple Entrance,Poochyena,Land
+Eumi Island Temple Entrance,Spinda,Land
+Eumi Island Temple Entrance,Taillow,Land
+Eumi Island Temple Entrance,Throh,Land
+Eumi Island Temple Entrance,Whismur,Land
+Eumi Island Temple Entrance,Zigzagoon,Land
+Eumi Island Temple Entrance,Sawk,Land
+
+Eumi Island Theme Park 1,Ralts,Land
+Eumi Island Theme Park 1,Electrike,Land
+Eumi Island Theme Park 1,Loudred,Land
+Eumi Island Theme Park 1,Poochyena,Land
+Eumi Island Theme Park 1,Shroomish,Land
+Eumi Island Theme Park 1,Spinda,Land
+Eumi Island Theme Park 1,Taillow,Land
+Eumi Island Theme Park 1,Wurmple,Land
+
+Eumi Island Theme Park 2,Taillow,Land
+Eumi Island Theme Park 2,Phanpy,Land
+Eumi Island Theme Park 2,Chespin,Land
+Eumi Island Theme Park 2,Volbeat,Land
+Eumi Island Theme Park 2,Illumise,Land
+Eumi Island Theme Park 2,Zigzagoon,Land
+Eumi Island Theme Park 2,Growlithe,Land
+
+Eumi Island Theme Park 3,Froakie,Land
+Eumi Island Theme Park 3,Loudred,Land
+Eumi Island Theme Park 3,Roselia,Land
+Eumi Island Theme Park 3,Seedot,Land
+Eumi Island Theme Park 3,Skitty,Land
+Eumi Island Theme Park 3,Spoink,Land
+Eumi Island Theme Park 3,Gulpin,Land
+Eumi Island Theme Park 3,Taillow,Land
+
+Eumi Island Town,Skitty,Land
+Eumi Island Town,Eevee,Land
+Eumi Island Town,Electrike,Land
+Eumi Island Town,Furfrou,Land
+Eumi Island Town,Gothita,Land
+Eumi Island Town,Illumise,Land
+Eumi Island Town,Nuzleaf,Land
+Eumi Island Town,Poochyena,Land
+Eumi Island Town,Taillow,Land
+Eumi Island Town,Volbeat,Land
+
+Ever Grande City,Corsola,Water
+Ever Grande City,Magikarp,Water
+Ever Grande City,Luvdisc,Water
+Ever Grande City,Tentacool,Water
+Ever Grande City,Tentacruel,Water
+Ever Grande City,Wailmer,Water
+
+Fiery Path,Slugma,Land
+Fiery Path,Torkoal,Land
+Fiery Path,Numel,Land
+Fiery Path,Magby,Land
+Fiery Path,Machop,Land
+Fiery Path,Grimer,Land
+Fiery Path,Roggenrola,Land
+Fiery Path,Koffing,Land
+
+Galeras Island East,Electrike,Land
+Galeras Island East,Pikachu,Land
+Galeras Island East,Mareep,Land
+Galeras Island East,Magneton,Land
+Galeras Island East,Magnemite,Land
+Galeras Island East,Emolga,Land
+Galeras Island East,Blitzle,Land
+Galeras Island East,Voltorb,Land
+Galeras Island East,Chinchou,Water
+
+Galeras Island South,Tentacool,Water
+Galeras Island South,Basculin,Water
+Galeras Island South,Corsola,Water
+Galeras Island South,Golduck,Water
+Galeras Island South,Psyduck,Water
+Galeras Island South,Tentacruel,Water
+Galeras Island South,Finneon,Water
+
+Galeras Island West,Slugma,Land
+Galeras Island West,Darumaka,Land
+Galeras Island West,Growlithe,Land
+Galeras Island West,Litleo,Land
+Galeras Island West,Magby,Land
+Galeras Island West,Phanpy,Land
+Galeras Island West,Sandshrew,Land
+Galeras Island West,Vulpix,Land
+
+Granite Cave 1F,Zubat,Land
+Granite Cave 1F,Timburr,Land
+Granite Cave 1F,Rhyhorn,Land
+Granite Cave 1F,Abra,Land
+Granite Cave 1F,Geodude,Land
+Granite Cave 1F,Diglett,Land
+Granite Cave 1F,Makuhita,Land
+
+Granite Cave 1F2,Abra,Land
+Granite Cave 1F2,Geodude,Land
+Granite Cave 1F2,Zubat,Land
+Granite Cave 1F2,Makuhita,Land
+
+Granite Cave B1F,Abra,Land
+Granite Cave B1F,Aron,Land
+Granite Cave B1F,Axew,Land
+Granite Cave B1F,Geodude,Land
+Granite Cave B1F,Makuhita,Land
+Granite Cave B1F,Onix,Land
+Granite Cave B1F,Whismur,Land
+Granite Cave B1F,Zubat,Land
+
+Granite Cave B2F,Mawile,Land
+Granite Cave B2F,Sableye,Land
+Granite Cave B2F,Onix,Land
+Granite Cave B2F,Nosepass,Land
+Granite Cave B2F,Zubat,Land
+Granite Cave B2F,Makuhita,Land
+Granite Cave B2F,Geodude,Land
+Granite Cave B2F,Abra,Land
+
+High Tide Entrance Room,Cubchoo,Land
+High Tide Entrance Room,Sealeo,Land
+High Tide Entrance Room,Golbat,Land
+High Tide Entrance Room,Dewgong,Land
+High Tide Entrance Room,Delibird,Land
+High Tide Entrance Room,Spheal,Land
+High Tide Entrance Room,Magikarp,Water
+High Tide Entrance Room,Noibat,Water
+High Tide Entrance Room,Piplup,Water
+High Tide Entrance Room,Tentacool,Water
+High Tide Entrance Room,Tentacruel,Water
+High Tide Entrance Room,Wailmer,Water
+High Tide Entrance Room,Golbat,Water
+
+Hoenn Festival,Taillow,Land
+Hoenn Festival,Electrike,Land
+Hoenn Festival,Linoone,Land
+Hoenn Festival,Zangoose,Land
+Hoenn Festival,Roselia,Land
+Hoenn Festival,Seedot,Land
+Hoenn Festival,Slakoth,Land
+Hoenn Festival,Treecko,Land
+Hoenn Festival,Clamperl,Water
+Hoenn Festival,Feebas,Water
+Hoenn Festival,Luvdisc,Water
+Hoenn Festival,Magikarp,Water
+Hoenn Festival,Mudkip,Water
+Hoenn Festival,Pelipper,Water
+Hoenn Festival,Wailmer,Water
+Hoenn Festival,Wingull,Water
+Hoenn Festival,Carvanha,Water
+
+Hoenn Festival Cave,Absol,Land
+Hoenn Festival Cave,Whismur,Land
+Hoenn Festival Cave,Makuhita,Land
+Hoenn Festival Cave,Mightyena,Land
+Hoenn Festival Cave,Numel,Land
+Hoenn Festival Cave,Shuppet,Land
+Hoenn Festival Cave,Torchic,Land
+Hoenn Festival Cave,Torkoal,Land
+
+Hoenn Safari Zone Area 1,Solosis,Land
+Hoenn Safari Zone Area 1,Wynaut,Land
+Hoenn Safari Zone Area 1,Roselia,Land
+Hoenn Safari Zone Area 1,Psyduck,Land
+Hoenn Safari Zone Area 1,Pidgeotto,Land
+Hoenn Safari Zone Area 1,Natu,Land
+Hoenn Safari Zone Area 1,Gulpin,Land
+Hoenn Safari Zone Area 1,Girafarig,Land
+Hoenn Safari Zone Area 1,Castform,Land
+Hoenn Safari Zone Area 1,Pikachu,Land
+
+Hoenn Safari Zone Area 2,Zigzagoon,Land
+Hoenn Safari Zone Area 2,Shroomish,Land
+Hoenn Safari Zone Area 2,Seviper,Land
+Hoenn Safari Zone Area 2,Plusle,Land
+Hoenn Safari Zone Area 2,Oddish,Land
+Hoenn Safari Zone Area 2,Natu,Land
+Hoenn Safari Zone Area 2,Helioptile,Land
+Hoenn Safari Zone Area 2,Doduo,Land
+Hoenn Safari Zone Area 2,Beldum,Land
+Hoenn Safari Zone Area 2,Lombre,Land
+Hoenn Safari Zone Area 2,Aron,Land
+Hoenn Safari Zone Area 2,Barboach,Water
+Hoenn Safari Zone Area 2,Seaking,Water
+Hoenn Safari Zone Area 2,Clamperl,Water
+Hoenn Safari Zone Area 2,Frillish,Water
+Hoenn Safari Zone Area 2,Goldeen,Water
+Hoenn Safari Zone Area 2,Feebas,Water
+Hoenn Safari Zone Area 2,Lombre,Water
+Hoenn Safari Zone Area 2,Lotad,Water
+
+Hoenn Safari Zone Area 3,Absol,Land
+Hoenn Safari Zone Area 3,Cacnea,Land
+Hoenn Safari Zone Area 3,Dodrio,Land
+Hoenn Safari Zone Area 3,Fletchling,Land
+Hoenn Safari Zone Area 3,Pineco,Land
+Hoenn Safari Zone Area 3,Rhyhorn,Land
+Hoenn Safari Zone Area 3,Seedot,Land
+Hoenn Safari Zone Area 3,Skitty,Land
+Hoenn Safari Zone Area 3,Spoink,Land
+Hoenn Safari Zone Area 3,Lotad,Water
+Hoenn Safari Zone Area 3,Magikarp,Water
+Hoenn Safari Zone Area 3,Clamperl,Water
+Hoenn Safari Zone Area 3,Tympole,Water
+Hoenn Safari Zone Area 3,Swablu,Water
+Hoenn Safari Zone Area 3,Poliwhirl,Water
+Hoenn Safari Zone Area 3,Poliwag,Water
+Hoenn Safari Zone Area 3,Barboach,Water
+
+Hoenn Safari Zone Area 4,Trapinch,Land
+Hoenn Safari Zone Area 4,Torchic,Land
+Hoenn Safari Zone Area 4,Teddiursa,Land
+Hoenn Safari Zone Area 4,Baltoy,Land
+Hoenn Safari Zone Area 4,Rhyhorn,Land
+Hoenn Safari Zone Area 4,Duskull,Land
+Hoenn Safari Zone Area 4,Geodude,Land
+Hoenn Safari Zone Area 4,Graveler,Land
+Hoenn Safari Zone Area 4,Litleo,Land
+Hoenn Safari Zone Area 4,Shuppet,Land
+Hoenn Safari Zone Area 4,Nincada,Land
+Hoenn Safari Zone Area 4,Phanpy,Land
+
+Hoenn Safari Zone Area 5,Sunkern,Land
+Hoenn Safari Zone Area 5,Electrike,Land
+Hoenn Safari Zone Area 5,Mareep,Land
+Hoenn Safari Zone Area 5,Nosepass,Land
+Hoenn Safari Zone Area 5,Plusle,Land
+Hoenn Safari Zone Area 5,Zangoose,Land
+Hoenn Safari Zone Area 5,Volbeat,Land
+Hoenn Safari Zone Area 5,Taillow,Land
+Hoenn Safari Zone Area 5,Ralts,Land
+Hoenn Safari Zone Area 5,Luvdisc,Water
+Hoenn Safari Zone Area 5,Mudkip,Water
+Hoenn Safari Zone Area 5,Octillery,Water
+Hoenn Safari Zone Area 5,Pelipper,Water
+Hoenn Safari Zone Area 5,Quagsire,Water
+Hoenn Safari Zone Area 5,Wailmer,Water
+Hoenn Safari Zone Area 5,Azurill,Water
+Hoenn Safari Zone Area 5,Wingull,Water
+Hoenn Safari Zone Area 5,Wooper,Water
+Hoenn Safari Zone Area 5,Carvanha,Water
+
+Hoenn Safari Zone Area 6,Stantler,Land
+Hoenn Safari Zone Area 6,Treecko,Land
+Hoenn Safari Zone Area 6,Slakoth,Land
+Hoenn Safari Zone Area 6,Poochyena,Land
+Hoenn Safari Zone Area 6,Minccino,Land
+Hoenn Safari Zone Area 6,Mightyena,Land
+Hoenn Safari Zone Area 6,Houndour,Land
+Hoenn Safari Zone Area 6,Aipom,Land
+Hoenn Safari Zone Area 6,Whismur,Land
+Hoenn Safari Zone Area 6,Illumise,Land
+
+Jagged Pass,Primeape,Land
+Jagged Pass,Ponyta,Land
+Jagged Pass,Castform,Land
+Jagged Pass,Darumaka,Land
+Jagged Pass,Mankey,Land
+Jagged Pass,Numel,Land
+Jagged Pass,Slugma,Land
+Jagged Pass,Spoink,Land
+Jagged Pass,Spinda,Land
+
+Jura Cave,Geodude,Land
+Jura Cave,Honedge,Land
+Jura Cave,Onix,Land
+Jura Cave,Sableye,Land
+Jura Cave,Baltoy,Land
+Jura Cave,Whismur,Land
+Jura Cave,Zangoose,Land
+Jura Cave,Tirtouga,Water
+Jura Cave,Seadra,Water
+Jura Cave,Horsea,Water
+Jura Cave,Goldeen,Water
+Jura Cave,Feebas,Water
+Jura Cave,Carvanha,Water
+Jura Cave,Magikarp,Water
+
+Leev Town Entrance,Shellos,Water
+Leev Town Entrance,Psyduck,Water
+Leev Town Entrance,Wingull,Water
+Leev Town Entrance,Lotad,Water
+Leev Town Entrance,Frillish,Water
+Leev Town Entrance,Mantyke,Water
+
+Lilycove City,Carvanha,Water
+Lilycove City,Pelipper,Water
+Lilycove City,Shellder,Water
+Lilycove City,Staryu,Water
+Lilycove City,Tentacool,Water
+Lilycove City,Tentacruel,Water
+Lilycove City,Wailmer,Water
+Lilycove City,Wingull,Water
+
+Lost Cave,Tentacool,Water
+Lost Cave,Gyarados,Water
+Lost Cave,Magikarp,Water
+Lost Cave,Tentacruel,Water
+
+Low Tide Entrance Room,Spheal,Land
+Low Tide Entrance Room,Cubchoo,Land
+Low Tide Entrance Room,Delibird,Land
+Low Tide Entrance Room,Golbat,Land
+Low Tide Entrance Room,Graveler,Land
+Low Tide Entrance Room,Snorunt,Land
+
+Low Tide Ice Room,Spheal,Land
+Low Tide Ice Room,Zubat,Land
+Low Tide Ice Room,Snorunt,Land
+Low Tide Ice Room,Seel,Land
+Low Tide Ice Room,Sealeo,Land
+Low Tide Ice Room,Golbat,Land
+Low Tide Ice Room,Dewgong,Land
+
+Meteor Falls 1F 1R,Zubat,Land
+Meteor Falls 1F 1R,Solrock,Land
+Meteor Falls 1F 1R,Lunatone,Land
+Meteor Falls 1F 1R,Graveler,Land
+Meteor Falls 1F 1R,Golbat,Land
+Meteor Falls 1F 1R,Druddigon,Land
+Meteor Falls 1F 1R,Clefairy,Land
+Meteor Falls 1F 1R,Goldeen,Water
+Meteor Falls 1F 1R,Kingler,Water
+Meteor Falls 1F 1R,Krabby,Water
+Meteor Falls 1F 1R,Lunatone,Water
+Meteor Falls 1F 1R,Magikarp,Water
+Meteor Falls 1F 1R,Solrock,Water
+Meteor Falls 1F 1R,Barboach,Water
+
+Meteor Falls 1F 2R,Clefairy,Land
+Meteor Falls 1F 2R,Solrock,Land
+Meteor Falls 1F 2R,Zubat,Land
+Meteor Falls 1F 2R,Onix,Land
+Meteor Falls 1F 2R,Lunatone,Land
+Meteor Falls 1F 2R,Graveler,Land
+Meteor Falls 1F 2R,Golbat,Land
+Meteor Falls 1F 2R,Geodude,Land
+Meteor Falls 1F 2R,Solrock,Water
+Meteor Falls 1F 2R,Skrelp,Water
+Meteor Falls 1F 2R,Lunatone,Water
+Meteor Falls 1F 2R,Krabby,Water
+Meteor Falls 1F 2R,Kingler,Water
+Meteor Falls 1F 2R,Goldeen,Water
+Meteor Falls 1F 2R,Barboach,Water
+Meteor Falls 1F 2R,Whiscash,Water
+
+Meteor Falls B1F 1R,Clefairy,Land
+Meteor Falls B1F 1R,Deino,Land
+Meteor Falls B1F 1R,Geodude,Land
+Meteor Falls B1F 1R,Golbat,Land
+Meteor Falls B1F 1R,Graveler,Land
+Meteor Falls B1F 1R,Lunatone,Land
+Meteor Falls B1F 1R,Solrock,Land
+Meteor Falls B1F 1R,Onix,Land
+Meteor Falls B1F 1R,Barboach,Water
+Meteor Falls B1F 1R,Kingler,Water
+Meteor Falls B1F 1R,Krabby,Water
+Meteor Falls B1F 1R,Lunatone,Water
+Meteor Falls B1F 1R,Magikarp,Water
+Meteor Falls B1F 1R,Solrock,Water
+Meteor Falls B1F 1R,Whiscash,Water
+Meteor Falls B1F 1R,Zubat,Water
+Meteor Falls B1F 1R,Goldeen,Water
+
+Meteor Falls B1F 2R,Onix,Land
+Meteor Falls B1F 2R,Lunatone,Land
+Meteor Falls B1F 2R,Graveler,Land
+Meteor Falls B1F 2R,Golbat,Land
+Meteor Falls B1F 2R,Geodude,Land
+Meteor Falls B1F 2R,Clefairy,Land
+Meteor Falls B1F 2R,Bagon,Land
+Meteor Falls B1F 2R,Zubat,Land
+Meteor Falls B1F 2R,Solrock,Land
+Meteor Falls B1F 2R,Whismur,Land
+Meteor Falls B1F 2R,Zubat,Water
+Meteor Falls B1F 2R,Solrock,Water
+Meteor Falls B1F 2R,Barboach,Water
+Meteor Falls B1F 2R,Goldeen,Water
+Meteor Falls B1F 2R,Kingler,Water
+Meteor Falls B1F 2R,Krabby,Water
+Meteor Falls B1F 2R,Lunatone,Water
+Meteor Falls B1F 2R,Magikarp,Water
+Meteor Falls B1F 2R,Whiscash,Water
+
+Mirage Island Cave 1F,Amaura,Land
+Mirage Island Cave 1F,Anorith,Land
+Mirage Island Cave 1F,Banette,Land
+Mirage Island Cave 1F,Donphan,Land
+Mirage Island Cave 1F,Loudred,Land
+Mirage Island Cave 1F,Swinub,Land
+Mirage Island Cave 1F,Omanyte,Land
+Mirage Island Cave 1F,Golbat,Land
+
+Mirage Island Cave 2F,Parasect,Land
+Mirage Island Cave 2F,Onix,Land
+Mirage Island Cave 2F,Lileep,Land
+Mirage Island Cave 2F,Donphan,Land
+Mirage Island Cave 2F,Arbok,Land
+Mirage Island Cave 2F,Shieldon,Land
+Mirage Island Cave 2F,Dusclops,Land
+
+Mirage Island Cave 3F,Piloswine,Land
+Mirage Island Cave 3F,Nidorino,Land
+Mirage Island Cave 3F,Exploud,Land
+Mirage Island Cave 3F,Cranidos,Land
+Mirage Island Cave 3F,Claydol,Land
+Mirage Island Cave 3F,Tyrunt,Land
+Mirage Island Cave 3F,Rhyhorn,Land
+
+Mirage Island Lake,Torkoal,Land
+Mirage Island Lake,Aerodactyl,Land
+Mirage Island Lake,Archen,Land
+Mirage Island Lake,Carnivine,Land
+Mirage Island Lake,Exeggutor,Land
+Mirage Island Lake,Nidoking,Land
+Mirage Island Lake,Nidoqueen,Land
+Mirage Island Lake,Tropius,Land
+Mirage Island Lake,Sharpedo,Water
+Mirage Island Lake,Pelipper,Water
+Mirage Island Lake,Luvdisc,Water
+Mirage Island Lake,Kingler,Water
+Mirage Island Lake,Kingdra,Water
+Mirage Island Lake,Kabuto,Water
+Mirage Island Lake,Horsea,Water
+Mirage Island Lake,Tirtouga,Water
+
+Mirage Island Summit,Taillow,Land
+Mirage Island Summit,Vileplume,Land
+Mirage Island Summit,Zorua,Land
+Mirage Island Summit,Wynaut,Land
+Mirage Island Summit,Electrike,Land
+Mirage Island Summit,Jangmo-o,Land
+Mirage Island Summit,Shiftry,Land
+Mirage Island Summit,Shroomish,Land
+
+Moon,Gible,Land
+Moon,Clefable,Land
+Moon,Lunatone,Land
+Moon,Solrock,Land
+Moon,Xatu,Land
+Moon,Clefairy,Land
+Moon,Jigglypuff,Land
+
+Moon 1F,Graveler,Land
+Moon 1F,Clefairy,Land
+Moon 1F,Elgyem,Land
+Moon 1F,Geodude,Land
+Moon 1F,Lunatone,Land
+Moon 1F,Mr. Mime,Land
+Moon 1F,Solrock,Land
+Moon 1F,Clefable,Land
+
+Moon B1F,Unown,Land
+Moon B1F,Munna,Land
+Moon B1F,Inkay,Land
+Moon B1F,Gastly,Land
+Moon B1F,Carbink,Land
+Moon B1F,Bronzor,Land
+Moon B1F,Baltoy,Land
+Moon B1F,Chingling,Land
+
+Mossdeep City,Pelipper,Water
+Mossdeep City,Sharpedo,Water
+Mossdeep City,Tentacool,Water
+Mossdeep City,Tentacruel,Water
+Mossdeep City,Magikarp,Water
+Mossdeep City,Frillish,Water
+Mossdeep City,Wailmer,Water
+
+Mt. Pyre 1F,Shuppet,Land
+Mt. Pyre 1F,Rattata,Land
+Mt. Pyre 1F,Duskull,Land
+Mt. Pyre 1F,Patrat,Land
+
+Mt. Pyre 2F,Patrat,Land
+Mt. Pyre 2F,Rattata,Land
+Mt. Pyre 2F,Shuppet,Land
+Mt. Pyre 2F,Duskull,Land
+
+Mt. Pyre 3F,Duskull,Land
+Mt. Pyre 3F,Patrat,Land
+Mt. Pyre 3F,Shuppet,Land
+Mt. Pyre 3F,Unown,Land
+
+Mt. Pyre 4F,Patrat,Land
+Mt. Pyre 4F,Shuppet,Land
+Mt. Pyre 4F,Rattata,Land
+Mt. Pyre 4F,Duskull,Land
+
+Mt. Pyre Exterior,Growlithe,Land
+Mt. Pyre Exterior,Meditite,Land
+Mt. Pyre Exterior,Rattata,Land
+Mt. Pyre Exterior,Shuppet,Land
+Mt. Pyre Exterior,Vulpix,Land
+Mt. Pyre Exterior,Wingull,Land
+Mt. Pyre Exterior,Zubat,Land
+Mt. Pyre Exterior,Bronzor,Land
+Mt. Pyre Exterior,Elgyem,Land
+Mt. Pyre Exterior,Duskull,Land
+Mt. Pyre Exterior,Wooper,Water
+Mt. Pyre Exterior,Quagsire,Water
+Mt. Pyre Exterior,Poliwhirl,Water
+Mt. Pyre Exterior,Poliwag,Water
+Mt. Pyre Exterior,Marill,Water
+Mt. Pyre Exterior,Lotad,Water
+
+Mt. Pyre Summit,Bronzor,Land
+Mt. Pyre Summit,Chimecho,Land
+Mt. Pyre Summit,Elgyem,Land
+Mt. Pyre Summit,Growlithe,Land
+Mt. Pyre Summit,Meditite,Land
+Mt. Pyre Summit,Patrat,Land
+Mt. Pyre Summit,Shuppet,Land
+Mt. Pyre Summit,Vulpix,Land
+Mt. Pyre Summit,Zubat,Land
+Mt. Pyre Summit,Poliwag,Water
+Mt. Pyre Summit,Poliwhirl,Water
+Mt. Pyre Summit,Lotad,Water
+Mt. Pyre Summit,Marill,Water
+Mt. Pyre Summit,Wooper,Water
+Mt. Pyre Summit,Quagsire,Water
+
+Nap Cave,Misdreavus,Land
+Nap Cave,Spiritomb,Land
+Nap Cave,Nosepass,Land
+Nap Cave,Jigglypuff,Land
+Nap Cave,Haunter,Land
+Nap Cave,Zubat,Land
+Nap Cave,Whismur,Land
+Nap Cave,Poliwag,Water
+Nap Cave,Psyduck,Water
+Nap Cave,Wooper,Water
+Nap Cave,Poliwhirl,Water
+
+Nap Cave B1F,Haunter,Land
+Nap Cave B1F,Golbat,Land
+Nap Cave B1F,Jigglypuff,Land
+Nap Cave B1F,Misdreavus,Land
+Nap Cave B1F,Whismur,Land
+Nap Cave B1F,Zubat,Land
+Nap Cave B1F,Gastly,Land
+Nap Cave B1F,Poliwag,Water
+Nap Cave B1F,Poliwhirl,Water
+Nap Cave B1F,Quagsire,Water
+Nap Cave B1F,Golduck,Water
+
+Nap Forest,Tangela,Land
+Nap Forest,Slakoth,Land
+Nap Forest,Shroomish,Land
+Nap Forest,Paras,Land
+Nap Forest,Petilil,Land
+Nap Forest,Hoothoot,Land
+Nap Forest,Foongus,Land
+Nap Forest,Caterpie,Land
+Nap Forest,Scatterbug,Land
+Nap Forest,Slowpoke,Water
+Nap Forest,Lotad,Water
+Nap Forest,Barboach,Water
+Nap Forest,Tympole,Water
+Nap Forest,Wingull,Water
+Nap Forest,Marill,Water
+
+Nap Shore,Skitty,Land
+Nap Shore,Swablu,Land
+Nap Shore,Persian,Land
+Nap Shore,Meowth,Land
+Nap Shore,Jigglypuff,Land
+Nap Shore,Drowzee,Land
+Nap Shore,Clefairy,Land
+Nap Shore,Clamperl,Land
+Nap Shore,Chatot,Land
+Nap Shore,Wingull,Land
+Nap Shore,Feebas,Water
+Nap Shore,Surskit,Water
+Nap Shore,Slowpoke,Water
+Nap Shore,Magikarp,Water
+Nap Shore,Corsola,Water
+Nap Shore,Clauncher,Water
+Nap Shore,Buizel,Water
+Nap Shore,Barboach,Water
+
+Nap Town,Corphish,Water
+Nap Town,Barboach,Water
+Nap Town,Magikarp,Water
+Nap Town,Staryu,Water
+Nap Town,Tentacool,Water
+Nap Town,Wingull,Water
+Nap Town,Shellder,Water
+
+New Mauville,Electrode,Land
+New Mauville,Emolga,Land
+New Mauville,Magnemite,Land
+New Mauville,Magneton,Land
+New Mauville,Voltorb,Land
+New Mauville,Blitzle,Land
+
+Pacifidlog Town,Tentacool,Water
+Pacifidlog Town,Wailmer,Water
+Pacifidlog Town,Wingull,Water
+Pacifidlog Town,Magikarp,Water
+Pacifidlog Town,Krabby,Water
+Pacifidlog Town,Horsea,Water
+Pacifidlog Town,Corsola,Water
+Pacifidlog Town,Pelipper,Water
+Pacifidlog Town,Sharpedo,Water
+
+Petalburg City,Surskit,Water
+Petalburg City,Azumarill,Water
+Petalburg City,Corphish,Water
+Petalburg City,Goldeen,Water
+Petalburg City,Krabby,Water
+Petalburg City,Magikarp,Water
+Petalburg City,Marill,Water
+Petalburg City,Masquerain,Water
+
+Petalburg Woods,Cottonee,Land
+Petalburg Woods,Treecko,Land
+Petalburg Woods,Silcoon,Land
+Petalburg Woods,Slakoth,Land
+Petalburg Woods,Taillow,Land
+Petalburg Woods,Cascoon,Land
+Petalburg Woods,Wurmple,Land
+Petalburg Woods,Shroomish,Land
+Petalburg Woods,Pidgey,Land
+
+Route 101,Zigzagoon,Land
+Route 101,Wurmple,Land
+Route 101,Sewaddle,Land
+Route 101,Poochyena,Land
+
+Route 102,Seedot,Land
+Route 102,Surskit,Land
+Route 102,Ralts,Land
+Route 102,Wurmple,Land
+Route 102,Lotad,Land
+Route 102,Poochyena,Land
+Route 102,Zigzagoon,Land
+Route 102,Marill,Water
+Route 102,Magikarp,Water
+Route 102,Goldeen,Water
+Route 102,Surskit,Water
+Route 102,Corphish,Water
+
+Route 103,Chatot,Land
+Route 103,Wingull,Land
+Route 103,Fearow,Land
+Route 103,Poochyena,Land
+Route 103,Magikarp,Water
+Route 103,Pelipper,Water
+Route 103,Shellos,Water
+Route 103,Tentacool,Water
+Route 103,Wingull,Water
+Route 103,Carvanha,Water
+Route 103,Wailmer,Water
+
+Route 104,Marill,Land
+Route 104,Psyduck,Land
+Route 104,Poochyena,Land
+Route 104,Deerling,Land
+Route 104,Taillow,Land
+Route 104,Sewaddle,Land
+Route 104,Wurmple,Land
+Route 104,Wingull,Land
+Route 104,Magikarp,Water
+Route 104,Pelipper,Water
+Route 104,Wingull,Water
+
+Route 105,Wailmer,Water
+Route 105,Frillish,Water
+Route 105,Krabby,Water
+Route 105,Magikarp,Water
+Route 105,Pelipper,Water
+Route 105,Spheal,Water
+Route 105,Tentacool,Water
+Route 105,Tentacool,Water
+
+Route 106,Spheal,Water
+Route 106,Krabby,Water
+Route 106,Magikarp,Water
+Route 106,Tentacool,Water
+Route 106,Tentacruel,Water
+Route 106,Wailmer,Water
+Route 106,Clauncher,Water
+
+Route 107,Wailmer,Water
+Route 107,Chinchou,Water
+Route 107,Lanturn,Water
+Route 107,Magikarp,Water
+Route 107,Skrelp,Water
+Route 107,Spheal,Water
+Route 107,Tentacool,Water
+Route 107,Tentacruel,Water
+
+Route 108,Wailmer,Water
+Route 108,Chinchou,Water
+Route 108,Tentacruel,Water
+Route 108,Tentacool,Water
+Route 108,Magikarp,Water
+Route 108,Lanturn,Water
+Route 108,Krabby,Water
+Route 108,Frillish,Water
+Route 108,Clamperl,Water
+
+Route 109,Krabby,Land
+Route 109,Wingull,Land
+Route 109,Tentacruel,Water
+Route 109,Wailmer,Water
+Route 109,Magikarp,Water
+Route 109,Krabby,Water
+Route 109,Clauncher,Water
+Route 109,Tentacool,Water
+Route 109,Gyarados,Water
+Route 109,Shellder,Water
+
+Route 110,Electrike,Land
+Route 110,Gulpin,Land
+Route 110,Minun,Land
+Route 110,Oddish,Land
+Route 110,Plusle,Land
+Route 110,Trubbish,Land
+Route 110,Voltorb,Land
+Route 110,Wingull,Land
+Route 110,Zigzagoon,Land
+Route 110,Pelipper,Water
+Route 110,Tentacool,Water
+Route 110,Wailmer,Water
+Route 110,Wingull,Water
+Route 110,Magikarp,Water
+
+Route 111 Desert,Trapinch,Land
+Route 111 Desert,Sandshrew,Land
+Route 111 Desert,Sandile,Land
+Route 111 Desert,Maractus,Land
+Route 111 Desert,Nosepass,Land
+Route 111 Desert,Cacturne,Land
+Route 111 Desert,Cacnea,Land
+Route 111 Desert,Baltoy,Land
+Route 111 Desert,Diglett,Land
+
+Route 111 South,Masquerain,Water
+Route 111 South,Azumarill,Water
+Route 111 South,Barboach,Water
+Route 111 South,Goldeen,Water
+Route 111 South,Krabby,Water
+Route 111 South,Magikarp,Water
+Route 111 South,Marill,Water
+Route 111 South,Surskit,Water
+
+Route 112,Tyrogue,Land
+Route 112,Torkoal,Land
+Route 112,Throh,Land
+Route 112,Sawk,Land
+Route 112,Ponyta,Land
+Route 112,Numel,Land
+Route 112,Mankey,Land
+Route 112,Machop,Land
+Route 112,Machoke,Land
+
+Route 113,Spinda,Land
+Route 113,Slugma,Land
+Route 113,Skarmory,Land
+Route 113,Sandslash,Land
+Route 113,Magcargo,Land
+Route 113,Bronzor,Land
+Route 113,Bouffalant,Land
+Route 113,Sandshrew,Land
+
+Route 114,Swablu,Land
+Route 114,Surskit,Land
+Route 114,Skorupi,Land
+Route 114,Seviper,Land
+Route 114,Seedot,Land
+Route 114,Nuzleaf,Land
+Route 114,Lotad,Land
+Route 114,Lombre,Land
+Route 114,Zangoose,Land
+Route 114,Marill,Water
+Route 114,Barboach,Water
+Route 114,Goldeen,Water
+Route 114,Krabby,Water
+Route 114,Magikarp,Water
+Route 114,Masquerain,Water
+Route 114,Azumarill,Water
+Route 114,Surskit,Water
+
+Route 115,Clefairy,Land
+Route 115,Swellow,Land
+Route 115,Jigglypuff,Land
+Route 115,Misdreavus,Land
+Route 115,Swablu,Land
+Route 115,Taillow,Land
+Route 115,Hoothoot,Land
+Route 115,Magikarp,Water
+Route 115,Pelipper,Water
+Route 115,Tentacool,Water
+Route 115,Wailmer,Water
+Route 115,Wingull,Water
+
+Route 116,Abra,Land
+Route 116,Joltik,Land
+Route 116,Misdreavus,Land
+Route 116,Seedot,Land
+Route 116,Skitty,Land
+Route 116,Taillow,Land
+Route 116,Nincada,Land
+Route 116,Zigzagoon,Land
+
+Route 117,Marill,Land
+Route 117,Poochyena,Land
+Route 117,Volbeat,Land
+Route 117,Tympole,Land
+Route 117,Togepi,Land
+Route 117,Seedot,Land
+Route 117,Roselia,Land
+Route 117,Oddish,Land
+Route 117,Illumise,Land
+Route 117,Surskit,Land
+Route 117,Surskit,Water
+Route 117,Masquerain,Water
+Route 117,Marill,Water
+Route 117,Goldeen,Water
+Route 117,Crawdaunt,Water
+Route 117,Corphish,Water
+Route 117,Azumarill,Water
+Route 117,Magikarp,Water
+
+Route 118,Aipom,Land
+Route 118,Zigzagoon,Land
+Route 118,Wingull,Land
+Route 118,Raticate,Land
+Route 118,Manectric,Land
+Route 118,Linoone,Land
+Route 118,Kecleon,Land
+Route 118,Absol,Land
+Route 118,Electrike,Land
+Route 118,Carvanha,Water
+Route 118,Pelipper,Water
+Route 118,Sharpedo,Water
+Route 118,Tentacool,Water
+Route 118,Wingull,Water
+Route 118,Magikarp,Water
+
+Route 119A,Oddish,Land
+Route 119A,Linoone,Land
+Route 119A,Kecleon,Land
+Route 119A,Gloom,Land
+Route 119A,Poochyena,Land
+Route 119A,Tropius,Land
+Route 119A,Sharpedo,Water
+Route 119A,Tentacool,Water
+Route 119A,Poliwag,Water
+Route 119A,Pelipper,Water
+Route 119A,Frillish,Water
+Route 119A,Carvanha,Water
+Route 119A,Wingull,Water
+
+Route 119B,Gloom,Land
+Route 119B,Linoone,Land
+Route 119B,Tropius,Land
+Route 119B,Kecleon,Land
+Route 119B,Poochyena,Land
+Route 119B,Krabby,Water
+Route 119B,Wingull,Water
+Route 119B,Sharpedo,Water
+Route 119B,Feebas,Water
+Route 119B,Pelipper,Water
+Route 119B,Magikarp,Water
+Route 119B,Carvanha,Water
+
+Route 120,Ampharos,Land
+Route 120,Flaaffy,Land
+Route 120,Nidoqueen,Land
+Route 120,Nidoran F,Land
+Route 120,Nidoran M,Land
+Route 120,Nidorina,Land
+Route 120,Nidorino,Land
+Route 120,Mareep,Land
+Route 120,Nidoking,Land
+Route 120,Politoed,Water
+Route 120,Koffing,Water
+Route 120,Zubat,Water
+Route 120,Seel,Water
+Route 120,Crobat,Water
+Route 120,Golbat,Water
+Route 120,Poliwrath,Water
+Route 120,Mantine,Water
+Route 120,Pelipper,Water
+
+Route 121,Poochyena,Land
+Route 121,Oddish,Land
+Route 121,Kecleon,Land
+Route 121,Gloom,Land
+Route 121,Duskull,Land
+Route 121,Shuppet,Land
+Route 121,Aipom,Land
+Route 121,Wingull,Land
+Route 121,Linoone,Land
+Route 121,Wingull,Water
+Route 121,Magikarp,Water
+Route 121,Pelipper,Water
+Route 121,Tentacool,Water
+Route 121,Wailmer,Water
+
+Route 122,Wailmer,Water
+Route 122,Tentacool,Water
+Route 122,Seadra,Water
+Route 122,Magikarp,Water
+Route 122,Horsea,Water
+Route 122,Finneon,Water
+
+Route 123,Oddish,Land
+Route 123,Pidgey,Land
+Route 123,Wingull,Land
+Route 123,Shuppet,Land
+Route 123,Poochyena,Land
+Route 123,Gloom,Land
+Route 123,Kecleon,Land
+Route 123,Linoone,Land
+Route 123,Mightyena,Land
+Route 123,Marill,Water
+Route 123,Magikarp,Water
+Route 123,Goldeen,Water
+Route 123,Crawdaunt,Water
+Route 123,Corphish,Water
+Route 123,Azumarill,Water
+Route 123,Surskit,Water
+Route 123,Wailmer,Water
+Route 123,Pelipper,Water
+Route 123,Masquerain,Water
+Route 123,Wingull,Water
+
+Route 124,Wailmer,Water
+Route 124,Chinchou,Water
+Route 124,Alomomola,Water
+Route 124,Finneon,Water
+Route 124,Magikarp,Water
+Route 124,Tentacool,Water
+Route 124,Clamperl,Water
+Route 124,Tentacruel,Water
+
+Route 124 Underwater,Chinchou,Water
+Route 124 Underwater,Clamperl,Water
+Route 124 Underwater,Kabuto,Water
+Route 124 Underwater,Krabby,Water
+Route 124 Underwater,Lanturn,Water
+Route 124 Underwater,Relicanth,Water
+Route 124 Underwater,Tentacool,Water
+
+Route 125,Seel,Water
+Route 125,Wailmer,Water
+Route 125,Tentacruel,Water
+Route 125,Tentacool,Water
+Route 125,Spheal,Water
+Route 125,Finneon,Water
+Route 125,Magikarp,Water
+Route 125,Gyarados,Water
+
+Route 126,Clamperl,Water
+Route 126,Wailmer,Water
+Route 126,Tentacruel,Water
+Route 126,Tentacool,Water
+Route 126,Shellder,Water
+Route 126,Sharpedo,Water
+Route 126,Magikarp,Water
+Route 126,Frillish,Water
+Route 126,Chinchou,Water
+Route 126,Relicanth,Water
+
+Route 126 Underwater,Tentacool,Water
+Route 126 Underwater,Alomomola,Water
+Route 126 Underwater,Chinchou,Water
+Route 126 Underwater,Clamperl,Water
+Route 126 Underwater,Horsea,Water
+Route 126 Underwater,Lanturn,Water
+Route 126 Underwater,Relicanth,Water
+Route 126 Underwater,Wailmer,Water
+
+Route 127,Tentacruel,Water
+Route 127,Chinchou,Water
+Route 127,Finneon,Water
+Route 127,Frillish,Water
+Route 127,Magikarp,Water
+Route 127,Tentacool,Water
+Route 127,Wailmer,Water
+
+Route 127 Underwater,Chinchou,Water
+Route 127 Underwater,Clamperl,Water
+Route 127 Underwater,Krabby,Water
+Route 127 Underwater,Lanturn,Water
+Route 127 Underwater,Omanyte,Water
+Route 127 Underwater,Relicanth,Water
+Route 127 Underwater,Tentacool,Water
+
+Route 128,Tentacruel,Water
+Route 128,Carvanha,Water
+Route 128,Chinchou,Water
+Route 128,Corsola,Water
+Route 128,Finneon,Water
+Route 128,Luvdisc,Water
+Route 128,Magikarp,Water
+Route 128,Sharpedo,Water
+Route 128,Wailmer,Water
+Route 128,Tentacool,Water
+
+Route 128 Underwater,Tentacool,Water
+Route 128 Underwater,Relicanth,Water
+Route 128 Underwater,Corsola,Water
+Route 128 Underwater,Clamperl,Water
+Route 128 Underwater,Chinchou,Water
+Route 128 Underwater,Lanturn,Water
+
+Route 129,Magikarp,Water
+Route 129,Luvdisc,Water
+Route 129,Castform,Water
+Route 129,Carvanha,Water
+Route 129,Wailmer,Water
+Route 129,Tentacruel,Water
+Route 129,Wailord,Water
+Route 129,Sharpedo,Water
+Route 129,Tentacool,Water
+
+Route 129 Underwater,Chinchou,Water
+Route 129 Underwater,Clamperl,Water
+Route 129 Underwater,Krabby,Water
+Route 129 Underwater,Lanturn,Water
+Route 129 Underwater,Relicanth,Water
+Route 129 Underwater,Tentacool,Water
+
+Route 130,Wailmer,Water
+Route 130,Tentacruel,Water
+Route 130,Tentacool,Water
+Route 130,Seadra,Water
+Route 130,Magikarp,Water
+Route 130,Finneon,Water
+Route 130,Frillish,Water
+Route 130,Alomomola,Water
+Route 130,Horsea,Water
+
+Route 130 Underwater,Relicanth,Water
+Route 130 Underwater,Tentacool,Water
+Route 130 Underwater,Lanturn,Water
+Route 130 Underwater,Clamperl,Water
+Route 130 Underwater,Chinchou,Water
+Route 130 Underwater,Krabby,Water
+
+Route 131,Tentacool,Water
+Route 131,Finneon,Water
+Route 131,Frillish,Water
+Route 131,Horsea,Water
+Route 131,Krabby,Water
+Route 131,Magikarp,Water
+Route 131,Seadra,Water
+Route 131,Sharpedo,Water
+Route 131,Staryu,Water
+Route 131,Wailmer,Water
+
+Route 131 B,Frillish,Water
+Route 131 B,Krabby,Water
+Route 131 B,Horsea,Water
+Route 131 B,Finneon,Water
+Route 131 B,Magikarp,Water
+Route 131 B,Seadra,Water
+Route 131 B,Sharpedo,Water
+Route 131 B,Staryu,Water
+Route 131 B,Tentacool,Water
+Route 131 B,Wailmer,Water
+
+Route 132,Lapras,Water
+Route 132,Carvanha,Water
+Route 132,Horsea,Water
+Route 132,Krabby,Water
+Route 132,Magikarp,Water
+Route 132,Seadra,Water
+Route 132,Sharpedo,Water
+Route 132,Tentacool,Water
+Route 132,Wailmer,Water
+
+Route 133,Tentacool,Water
+Route 133,Magikarp,Water
+Route 133,Sharpedo,Water
+Route 133,Wailmer,Water
+Route 133,Seadra,Water
+Route 133,Frillish,Water
+Route 133,Horsea,Water
+Route 133,Finneon,Water
+Route 133,Carvanha,Water
+
+Route 134,Alomomola,Water
+Route 134,Finneon,Water
+Route 134,Horsea,Water
+Route 134,Magikarp,Water
+Route 134,Seadra,Water
+Route 134,Sharpedo,Water
+Route 134,Tentacool,Water
+Route 134,Wailmer,Water
+
+Route 135,Krabby,Water
+Route 135,Tentacruel,Water
+Route 135,Kingler,Water
+Route 135,Shellder,Water
+Route 135,Carvanha,Water
+Route 135,Tentacool,Water
+Route 135,Chinchou,Water
+Route 135,Sharpedo,Water
+
+Ruins of the Vale Nesting Grounds,Noibat,Land
+Ruins of the Vale Nesting Grounds,Arbok,Land
+Ruins of the Vale Nesting Grounds,Duskull,Land
+Ruins of the Vale Nesting Grounds,Deino,Land
+Ruins of the Vale Nesting Grounds,Axew,Land
+Ruins of the Vale Nesting Grounds,Venonat,Land
+Ruins of the Vale Nesting Grounds,Ekans,Land
+Ruins of the Vale Nesting Grounds,Shuppet,Land
+
+Rusturf Tunnel,Geodude,Land
+Rusturf Tunnel,Whismur,Land
+
+Sea Mauville,Magikarp,Water
+Sea Mauville,Pelipper,Water
+Sea Mauville,Tentacool,Water
+Sea Mauville,Wailmer,Water
+Sea Mauville,Tentacruel,Water
+Sea Mauville,Wingull,Water
+
+Secret Nap Area,Jigglypuff,Land
+Secret Nap Area,Hoothoot,Land
+Secret Nap Area,Clefairy,Land
+Secret Nap Area,Cleffa,Land
+Secret Nap Area,Delcatty,Land
+Secret Nap Area,Munchlax,Land
+Secret Nap Area,Oddish,Land
+Secret Nap Area,Spinda,Land
+Secret Nap Area,Zubat,Land
+Secret Nap Area,Happiny,Land
+Secret Nap Area,Noctowl,Land
+Secret Nap Area,Krabby,Water
+Secret Nap Area,Lapras,Water
+Secret Nap Area,Poliwag,Water
+Secret Nap Area,Slowbro,Water
+Secret Nap Area,Slowking,Water
+Secret Nap Area,Slowpoke,Water
+Secret Nap Area,Staryu,Water
+
+Shoal Cave,Golbat,Land
+Shoal Cave,Zubat,Land
+Shoal Cave,Spheal,Land
+Shoal Cave,Magikarp,Water
+Shoal Cave,Spheal,Water
+Shoal Cave,Tentacool,Water
+Shoal Cave,Wailmer,Water
+Shoal Cave,Zubat,Water
+
+Sky Pillar 1F,Zubat,Land
+Sky Pillar 1F,Spinarak,Land
+Sky Pillar 1F,Sableye,Land
+Sky Pillar 1F,Golbat,Land
+Sky Pillar 1F,Banette,Land
+Sky Pillar 1F,Ariados,Land
+
+Sky Pillar 3F,Zubat,Land
+Sky Pillar 3F,Spinarak,Land
+Sky Pillar 3F,Mawile,Land
+Sky Pillar 3F,Golbat,Land
+Sky Pillar 3F,Claydol,Land
+Sky Pillar 3F,Ariados,Land
+
+Sky Pillar 5F,Zubat,Land
+Sky Pillar 5F,Loudred,Land
+Sky Pillar 5F,Golbat,Land
+Sky Pillar 5F,Druddigon,Land
+Sky Pillar 5F,Ariados,Land
+Sky Pillar 5F,Banette,Land
+Sky Pillar 5F,Claydol,Land
+Sky Pillar 5F,Altaria,Land
+
+Slateport City,Pelipper,Water
+Slateport City,Magikarp,Water
+Slateport City,Wingull,Water
+Slateport City,Tentacool,Water
+Slateport City,Wailmer,Water
+Slateport City,Gyarados,Water
+Slateport City,Krabby,Water
+
+Sleeping Path,Gothita,Land
+Sleeping Path,Drowzee,Land
+Sleeping Path,Girafarig,Land
+Sleeping Path,Gloom,Land
+Sleeping Path,Glameow,Land
+Sleeping Path,Oddish,Land
+Sleeping Path,Natu,Land
+Sleeping Path,Munna,Land
+Sleeping Path,Jigglypuff,Land
+Sleeping Path,Chingling,Land
+Sleeping Path,Wooper,Water
+Sleeping Path,Slowpoke,Water
+Sleeping Path,Politoed,Water
+Sleeping Path,Quagsire,Water
+Sleeping Path,Slowbro,Water
+Sleeping Path,Poliwag,Water
+
+Sootopolis city,Magikarp,Water
+Sootopolis city,Gyarados,Water
+
+Victory Road Hoenn 1F,Zubat,Land
+Victory Road Hoenn 1F,Aron,Land
+Victory Road Hoenn 1F,Golbat,Land
+Victory Road Hoenn 1F,Lairon,Land
+Victory Road Hoenn 1F,Loudred,Land
+Victory Road Hoenn 1F,Makuhita,Land
+Victory Road Hoenn 1F,Sableye,Land
+Victory Road Hoenn 1F,Whismur,Land
+Victory Road Hoenn 1F,Hariyama,Land
+
+Victory Road Hoenn B1F,Geodude,Land
+Victory Road Hoenn B1F,Aron,Land
+Victory Road Hoenn B1F,Golbat,Land
+Victory Road Hoenn B1F,Meditite,Land
+Victory Road Hoenn B1F,Medicham,Land
+Victory Road Hoenn B1F,Mawile,Land
+Victory Road Hoenn B1F,Loudred,Land
+Victory Road Hoenn B1F,Graveler,Land
+
+Victory Road Hoenn B2F,Whismur,Land
+Victory Road Hoenn B2F,Zubat,Land
+Victory Road Hoenn B2F,Aron,Land
+Victory Road Hoenn B2F,Golbat,Land
+Victory Road Hoenn B2F,Hariyama,Land
+Victory Road Hoenn B2F,Loudred,Land
+Victory Road Hoenn B2F,Makuhita,Land
+Victory Road Hoenn B2F,Tentacruel,Water
+Victory Road Hoenn B2F,Tentacool,Water
+Victory Road Hoenn B2F,Magikarp,Water
+Victory Road Hoenn B2F,Luvdisc,Water
+Victory Road Hoenn B2F,Golbat,Water
+Victory Road Hoenn B2F,Goldeen,Water
+Victory Road Hoenn B2F,Wailmer,Water
+Victory Road Hoenn B2F,Whiscash,Water
+Victory Road Hoenn B2F,Barboach,Water
+Victory Road Hoenn B2F,Zubat,Water

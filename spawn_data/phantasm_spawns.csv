@@ -1,0 +1,373 @@
+Map,Pokemon,Terrain
+Angel Hill,Chingling,Water
+Angel Hill,Eevee,Land
+Angel Hill,Gyarados,Water
+Angel Hill,Haunter,Water
+Angel Hill,Koffing,Land
+Angel Hill,Magnemite,Land
+Angel Hill,Marill,Water
+Angel Hill,Minun,Land
+Angel Hill,Piplup,Water
+Angel Hill,Plusle,Land
+Angel Hill,Ponyta,Land
+Angel Hill,Shinx,Land
+Angel Hill,Slowpoke,Water
+Angel Hill,Spheal,Water
+Angel Hill,Teddiursa,Land
+Angel Hill,Togepi,Land
+Angel Hill,Togetic,Water
+Bittersweet Cave 1F,Drilbur,Land
+Bittersweet Cave 1F,Kadabra,Land
+Bittersweet Cave 1F,Magnemite,Land
+Bittersweet Cave 1F,Mankey,Land
+Bittersweet Cave 1F,Marill,Land
+Bittersweet Cave 1F,Paras,Land
+Bittersweet Cave 1F,Ralts,Land
+Bittersweet Cave 1F,Torkoal,Land
+Bittersweet Cave 1F,Wooper-Paldea,Land
+Bittersweet Cave 2F,Diglett,Land
+Bittersweet Cave 2F,Emolga,Land
+Bittersweet Cave 2F,Nincada,Land
+Bittersweet Cave 2F,Numel,Land
+Bittersweet Cave 2F,Nuzleaf,Land
+Bittersweet Cave 2F,Slugma,Land
+Bittersweet Cave 2F,Smeargle,Land
+Bittersweet Cave 2F,Tauros,Land
+Bittersweet Cave 2F,Torkoal,Land
+Bittersweet Cave 3F,Abra,Land
+Bittersweet Cave 3F,Cyndaquil,Land
+Bittersweet Cave 3F,Gengar,Land
+Bittersweet Cave 3F,Growlithe,Land
+Bittersweet Cave 3F,Magnemite,Land
+Bittersweet Cave 3F,Piloswine,Land
+Bittersweet Cave 3F,Smeargle,Land
+Bittersweet Cave 3F,Tauros,Land
+Bittersweet Cave 3F,Zangoose,Land
+Bittersweet Cave 4F,Growlithe,Land
+Bittersweet Cave 4F,Magnemite,Land
+Bittersweet Cave 4F,Marill,Land
+Bittersweet Cave 4F,Numel,Land
+Bittersweet Cave 4F,Parasect,Land
+Bittersweet Cave 4F,Petilil,Land
+Bittersweet Cave 4F,Sneasel,Land
+Bittersweet Cave 4F,Treecko,Land
+Bone Pass,Croagunk,Land
+Bone Pass,Haunter,Land
+Bone Pass,Mightyena,Land
+Bone Pass,Nosepass,Land
+Bone Pass,Poochyena,Land
+Bone Pass,Scraggy,Land
+Bone Pass,Vigoroth,Land
+Bone Pass,Weezing,Land
+Cemetery Island,Bulbasaur,Land
+Cemetery Island,Gastly,Land
+Cemetery Island,Gastly,Water
+Cemetery Island,Gyarados,Water
+Cemetery Island,Kadabra,Land
+Cemetery Island,Machop,Land
+Cemetery Island,Marill,Water
+Cemetery Island,Ponyta,Land
+Cemetery Island,Riolu,Land
+Cemetery Island,Scraggy,Land
+Cemetery Island,Seedot,Land
+Cemetery Island,Slowbro,Water
+Cemetery Island,Slowpoke,Water
+Cemetery Island,Solosis,Water
+Cemetery Island,Spheal,Water
+Cemetery Island,Squirtle,Water
+Cemetery Island,Torkoal,Land
+Dark Valley,Farfetchd,Land
+Dark Valley,Gastly,Land
+Dark Valley,Haunter,Land
+Dark Valley,Larvesta,Land
+Dark Valley,Pikachu,Land
+Dark Valley,Poochyena,Land
+Dark Valley,Ralts,Land
+Dark Valley,Tauros,Land
+Dreadtown,Claydol,Land
+Dreadtown,Duskull,Land
+Dreadtown,Hawlucha,Land
+Dreadtown,Koffing,Land
+Dreadtown,Marill,Land
+Dreadtown,Pawniard,Land
+Dreadtown,Poochyena,Land
+Dreadtown,Ursaring,Land
+Festival Town,Arcanine,Land
+Festival Town,Bronzor,Land
+Festival Town,Buneary,Land
+Festival Town,Chinchou,Water
+Festival Town,Farfetchd,Land
+Festival Town,Gyarados,Water
+Festival Town,Magikarp,Water
+Festival Town,Marill,Water
+Festival Town,Meowth,Land
+Festival Town,Mimikyu,Land
+Festival Town,Mudkip,Water
+Festival Town,Plusle,Land
+Festival Town,Slowking,Water
+Festival Town,Spheal,Water
+Festival Town,Totodile,Water
+Festival Town,Zangoose,Land
+Ghoul Swamp,Cottonee,Land
+Ghoul Swamp,Croagunk,Water
+Ghoul Swamp,Foongus,Land
+Ghoul Swamp,Gyarados,Water
+Ghoul Swamp,Haunter,Water
+Ghoul Swamp,Koffing,Land
+Ghoul Swamp,Magikarp,Water
+Ghoul Swamp,Marill,Land
+Ghoul Swamp,Marill,Water
+Ghoul Swamp,Oshawott,Water
+Ghoul Swamp,Parasect,Land
+Ghoul Swamp,Slakoth,Land
+Ghoul Swamp,Slowking,Water
+Ghoul Swamp,Spheal,Water
+Ghoul Swamp,Tangela,Land
+Ghoul Swamp,Tangrowth,Land
+Haunted Cave,Baltoy,Land
+Haunted Cave,Bronzong,Land
+Haunted Cave,Gastly,Water
+Haunted Cave,Gible,Land
+Haunted Cave,Gligar,Land
+Haunted Cave,Growlithe,Land
+Haunted Cave,Magnemite,Land
+Haunted Cave,Mankey,Land
+Haunted Cave,Marill,Water
+Haunted Cave,Noibat,Water
+Haunted Cave,Piplup,Water
+Haunted Cave,Slowking,Water
+Haunted Cave,Solrock,Land
+Haunted Cave,Spheal,Water
+Haunted Cave,Tentacool,Water
+Haunted Cave,Tentacruel,Water
+Haunted Cave,Wooper-Paldea,Land
+Haunted Cave Depths 1,Blacephalon,Land
+Haunted Cave Depths 1,Duskull,Land
+Haunted Cave Depths 1,Electrike,Land
+Haunted Cave Depths 1,Gastly,Land
+Haunted Cave Depths 1,Growlithe,Land
+Haunted Cave Depths 1,Magneton,Land
+Haunted Cave Depths 1,Ponyta,Land
+Haunted Cave Depths 2,Guzzlord,Land
+Haunted Cave Depths 2,Mankey,Land
+Haunted Cave Depths 2,Marill,Land
+Haunted Cave Depths 2,Mightyena,Land
+Haunted Cave Depths 2,Nosepass,Land
+Haunted Cave Depths 2,Primeape,Land
+Haunted Cave Depths 2,Wooper-Paldea,Land
+Haunted House 1F,Abra,Land
+Haunted House 1F,Ariados,Land
+Haunted House 1F,Buneary,Land
+Haunted House 1F,Duskull,Land
+Haunted House 1F,Haunter,Land
+Haunted House 1F,Joltik,Land
+Haunted House 1F,Meowth,Land
+Haunted House 1F,Pinsir,Land
+Haunted House 1F,Smeargle,Land
+Haunted House 2F,Aron,Land
+Haunted House 2F,Chingling,Land
+Haunted House 2F,Farfetchd,Land
+Haunted House 2F,Hypno,Land
+Haunted House 2F,Mankey,Land
+Haunted House 2F,Sableye,Land
+Haunted House 2F,Spinarak,Land
+Haunted House 2F,Wooper-Paldea,Land
+Haunted House 3F,Baltoy,Land
+Haunted House 3F,Electrike,Land
+Haunted House 3F,Gastly,Land
+Haunted House 3F,Growlithe,Land
+Haunted House 3F,Mankey,Land
+Haunted House 3F,Marill,Land
+Haunted House 3F,Ralts,Land
+Haunted House 3F,Sneasel-Hisui,Land
+Howling Woods,Chikorita,Land
+Howling Woods,Drowzee,Land
+Howling Woods,Duskull,Land
+Howling Woods,Marill,Land
+Howling Woods,Poochyena,Land
+Howling Woods,Seedot,Land
+Howling Woods,Slakoth,Land
+Howling Woods,Spiritomb,Land
+Illusory Forest,Cacturne,Land
+Illusory Forest,Chingling,Land
+Illusory Forest,Farfetchd,Land
+Illusory Forest,Golett,Land
+Illusory Forest,Phantump,Land
+Illusory Forest,Seedot,Land
+Illusory Forest,Slakoth,Land
+Illusory Forest,Weezing,Land
+Lost Seacoast,Baltoy,Land
+Lost Seacoast,Bronzor,Land
+Lost Seacoast,Gothita,Land
+Lost Seacoast,Koffing,Land
+Lost Seacoast,Magikarp,Water
+Lost Seacoast,Magnemite,Land
+Lost Seacoast,Marill,Land
+Lost Seacoast,Marill,Water
+Lost Seacoast,Mudkip,Water
+Lost Seacoast,Shuckle,Land
+Lost Seacoast,Slowbro,Water
+Lost Seacoast,Slowpoke,Water
+Lost Seacoast,Spheal,Water
+Lost Seacoast,Torkoal,Land
+Lost Seacoast,Vaporeon,Water
+Lost Seacoast,Vivillon,Water
+Murky Path,Bronzor,Land
+Murky Path,Chespin,Land
+Murky Path,Farfetchd,Land
+Murky Path,Growlithe,Land
+Murky Path,Mankey,Land
+Murky Path,Pikachu,Land
+Murky Path,Sableye,Land
+Murky Path,Wooper-Paldea,Land
+Murky Town,Abra,Land
+Murky Town,Azumarill,Water
+Murky Town,Azurill,Water
+Murky Town,Chinchou,Water
+Murky Town,Drowzee,Land
+Murky Town,Foongus,Land
+Murky Town,Gastly,Land
+Murky Town,Gothita,Land
+Murky Town,Gyarados,Water
+Murky Town,Koffing,Land
+Murky Town,Lanturn,Water
+Murky Town,Magikarp,Water
+Murky Town,Marill,Land
+Murky Town,Marill,Water
+Murky Town,Pikachu,Land
+Murky Town,Spheal,Water
+Murky Town,Torkoal,Land
+Murky Town,Vivillon,Water
+Necropolis,Arbok,Land
+Necropolis,Charmander,Land
+Necropolis,Chingling,Land
+Necropolis,Electrike,Land
+Necropolis,Froakie,Water
+Necropolis,Gastly,Land
+Necropolis,Lanturn,Water
+Necropolis,Magneton,Land
+Necropolis,Mankey,Land
+Necropolis,Marill,Water
+Necropolis,Mimikyu,Land
+Necropolis,Piplup,Water
+Necropolis,Slakoth,Land
+Necropolis,Spheal,Water
+Necropolis,Tentacool,Water
+Necropolis,Tentacruel,Water
+Necropolis,Vivillon,Water
+Road Of Night,Abra,Land
+Road Of Night,Ariados,Land
+Road Of Night,Beldum,Land
+Road Of Night,Durant,Land
+Road Of Night,Ekans,Land
+Road Of Night,Farfetchd,Land
+Road Of Night,Gastly,Land
+Road Of Night,Gastly,Water
+Road Of Night,Haunter,Water
+Road Of Night,Marill,Water
+Road Of Night,Oshawott,Water
+Road Of Night,Piplup,Water
+Road Of Night,Slakoth,Land
+Road Of Night,Slowking,Water
+Road Of Night,Tentacool,Water
+Road Of Night,Vivillon,Water
+Sacred Forest,Abra,Land
+Sacred Forest,Ariados,Land
+Sacred Forest,Farfetchd,Land
+Sacred Forest,Komala,Land
+Sacred Forest,Mankey,Land
+Sacred Forest,Pancham,Land
+Sacred Forest,Ponyta,Land
+Sacred Forest,Tangela,Land
+Serenia Village,Abra,Land
+Serenia Village,Furfrou,Land
+Serenia Village,Growlithe,Land
+Serenia Village,Haunter,Land
+Serenia Village,Mankey,Land
+Serenia Village,Meowth,Land
+Serenia Village,Mime Jr.,Land
+Serenia Village,Ralts,Land
+Serenia Village,Tauros,Land
+Serenia Village Tunnel,Diglett,Land
+Serenia Village Tunnel,Drilbur,Land
+Serenia Village Tunnel,Dugtrio,Land
+Serenia Village Tunnel,Nosepass,Land
+Serenia Village Tunnel,Numel,Land
+Serenia Village Tunnel,Paras,Land
+Serenia Village Tunnel,Solrock,Land
+Serenia Village Tunnel,Trapinch,Land
+Spooky Path,Ariados,Land
+Spooky Path,Gengar,Land
+Spooky Path,Marill,Land
+Spooky Path,Mimikyu,Land
+Spooky Path,Nosepass,Land
+Spooky Path,Pawniard,Land
+Spooky Path,Pikachu,Land
+Spooky Path,Teddiursa,Land
+Sweetsland,Buneary,Land
+Sweetsland,Eevee,Land
+Sweetsland,Fennekin,Land
+Sweetsland,Magnemite,Land
+Sweetsland,Magneton,Land
+Sweetsland,Marill,Land
+Sweetsland,Meowth,Land
+Sweetsland,Numel,Land
+Unholy Sands,Absol,Land
+Unholy Sands,Baltoy,Land
+Unholy Sands,Cacnea,Land
+Unholy Sands,Camerupt,Land
+Unholy Sands,Castform,Water
+Unholy Sands,Chimchar,Land
+Unholy Sands,Chingling,Water
+Unholy Sands,Gastly,Water
+Unholy Sands,Koffing,Water
+Unholy Sands,Lunatone,Water
+Unholy Sands,Maractus,Land
+Unholy Sands,Slakoth,Land
+Unholy Sands,Slowking,Water
+Unholy Sands,Squirtle,Water
+Unholy Sands,Swinub,Land
+Unholy Sands,Tangela,Land
+Unholy Sands,Tentacool,Water
+Unholy Sands Pyramid East Chamber,Abra,Land
+Unholy Sands Pyramid East Chamber,Beldum,Land
+Unholy Sands Pyramid East Chamber,Cacnea,Land
+Unholy Sands Pyramid East Chamber,Mightyena,Land
+Unholy Sands Pyramid East Chamber,Numel,Land
+Unholy Sands Pyramid East Chamber,Pikachu,Land
+Unholy Sands Pyramid East Chamber,Poochyena,Land
+Unholy Sands Pyramid East Chamber,Riolu,Land
+Unholy Sands Pyramid West Chamber,Bronzor,Land
+Unholy Sands Pyramid West Chamber,Ekans,Land
+Unholy Sands Pyramid West Chamber,Kecleon,Land
+Unholy Sands Pyramid West Chamber,Magneton,Land
+Unholy Sands Pyramid West Chamber,Marill,Land
+Unholy Sands Pyramid West Chamber,Pinsir,Land
+Unholy Sands Pyramid West Chamber,Sandile,Land
+Unholy Sands Pyramid West Chamber,Torkoal,Land
+Unholy Sands South,Buneary,Land
+Unholy Sands South,Farfetchd,Land
+Unholy Sands South,Hawlucha,Land
+Unholy Sands South,Nosepass,Land
+Unholy Sands South,Slugma,Land
+Unholy Sands South,Swinub,Land
+Unholy Sands South,Teddiursa,Land
+Unholy Sands South,Zangoose,Land
+Unholy Sands West,Arbok,Land
+Unholy Sands West,Baltoy,Land
+Unholy Sands West,Charmander,Land
+Unholy Sands West,Cyndaquil,Land
+Unholy Sands West,Ekans,Land
+Unholy Sands West,Gyarados,Water
+Unholy Sands West,Haunter,Land
+Unholy Sands West,Lunatone,Water
+Unholy Sands West,Magikarp,Water
+Unholy Sands West,Magneton,Land
+Unholy Sands West,Marill,Land
+Unholy Sands West,Marill,Water
+Unholy Sands West,Sandile,Land
+Unholy Sands West,Slowbro,Water
+Unholy Sands West,Slowking,Water
+Unholy Sands West,Spheal,Water
+Unholy Sands West,Totodile,Water
+Unholy Sands West,Vibrava,Water

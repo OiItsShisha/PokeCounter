@@ -1,0 +1,515 @@
+Map,Pokemon,Terrain
+Altering Cave,Aipom,Land
+Altering Cave,Houndour,Land
+Altering Cave,Mareep,Land
+Altering Cave,Pineco,Land
+Altering Cave,Sandshrew,Land
+Altering Cave,Shuckle,Land
+Altering Cave,Smeargle,Land
+Altering Cave,Stantler,Land
+Altering Cave,Teddiursa,Land
+Altering Cave,Zubat,Land
+Berry Forest,Bellsprout,Land
+Berry Forest,Drowzee,Land
+Berry Forest,Exeggcute,Land
+Berry Forest,Gloom,Land
+Berry Forest,Hypno,Land
+Berry Forest,Oddish,Land
+Berry Forest,Petilil,Land
+Berry Forest,Slowpoke,Land
+Berry Forest,Weepinbell,Land
+Bond Bridge,Bellsprout,Land
+Bond Bridge,Glameow,Land
+Bond Bridge,Gloom,Land
+Bond Bridge,Meowth,Land
+Bond Bridge,Oddish,Land
+Bond Bridge,Pidgeotto,Land
+Bond Bridge,Pidgey,Land
+Bond Bridge,Psyduck,Land
+Bond Bridge,Venonat,Land
+Bond Bridge,Weepinbell,Land
+Canyon Entrance,Fearow,Land
+Canyon Entrance,Meowth,Land
+Canyon Entrance,Persian,Land
+Canyon Entrance,Phanpy,Land
+Canyon Entrance,Psyduck,Land
+Canyon Entrance,Sentret,Land
+Canyon Entrance,Slowpoke,Land
+Canyon Entrance,Spearow,Land
+Cape Brink,Bellsprout,Land
+Cape Brink,Fearow,Land
+Cape Brink,Gloom,Land
+Cape Brink,Meowth,Land
+Cape Brink,Oddish,Land
+Cape Brink,Persian,Land
+Cape Brink,Spearow,Land
+Five Isle Meadow,Hoppip,Land
+Five Isle Meadow,Meowth,Land
+Five Isle Meadow,Persian,Land
+Five Isle Meadow,Pidgeotto,Land
+Five Isle Meadow,Ponyta,Land
+Five Isle Meadow,Psyduck,Land
+Five Isle Meadow,Rapidash,Land
+Five Isle Meadow,Sentret,Land
+Five Isle Meadow,Skiddo,Land
+Five Isle Meadow,Slowpoke,Land
+Icefall Back Cave,Dewgong,Land
+Icefall Back Cave,Golbat,Land
+Icefall Back Cave,Psyduck,Land
+Icefall Back Cave,Seel,Land
+Icefall Back Cave,Slowpoke,Land
+Icefall Back Cave,Zubat,Land
+Icefall Cave 1F,Delibird,Land
+Icefall Cave 1F,Golbat,Land
+Icefall Cave 1F,Seel,Land
+Icefall Cave 1F,Sneasel,Land
+Icefall Cave 1F,Swinub,Land
+Icefall Cave 1F,Zubat,Land
+Icefall Cave B1F,Delibird,Land
+Icefall Cave B1F,Golbat,Land
+Icefall Cave B1F,Seel,Land
+Icefall Cave B1F,Sneasel,Land
+Icefall Cave B1F,Swinub,Land
+Icefall Cave B1F,Zubat,Land
+Icefall Cave Entrance,Dewgong,Land
+Icefall Cave Entrance,Golbat,Land
+Icefall Cave Entrance,Psyduck,Land
+Icefall Cave Entrance,Seel,Land
+Icefall Cave Entrance,Slowpoke,Land
+Icefall Cave Entrance,Zubat,Land
+Kindle Road,Fearow,Land
+Kindle Road,Meowth,Land
+Kindle Road,Numel,Land
+Kindle Road,Persian,Land
+Kindle Road,Ponyta,Land
+Kindle Road,Psyduck,Land
+Kindle Road,Rapidash,Land
+Kindle Road,Slowpoke,Land
+Kindle Road,Spearow,Land
+Lost Cave 1F1,Gastly,Land
+Lost Cave 1F1,Golbat,Land
+Lost Cave 1F1,Haunter,Land
+Lost Cave 1F1,Misdreavus,Land
+Lost Cave 1F1,Murkrow,Land
+Lost Cave 1F1,Zubat,Land
+Lost Cave 1F10,Gastly,Land
+Lost Cave 1F10,Golbat,Land
+Lost Cave 1F10,Haunter,Land
+Lost Cave 1F10,Misdreavus,Land
+Lost Cave 1F10,Murkrow,Land
+Lost Cave 1F10,Yamask,Land
+Lost Cave 1F10,Zubat,Land
+Lost Cave 1F11,Gastly,Land
+Lost Cave 1F11,Golbat,Land
+Lost Cave 1F11,Haunter,Land
+Lost Cave 1F11,Misdreavus,Land
+Lost Cave 1F11,Murkrow,Land
+Lost Cave 1F11,Zubat,Land
+Lost Cave 1F12,Gastly,Land
+Lost Cave 1F12,Golbat,Land
+Lost Cave 1F12,Haunter,Land
+Lost Cave 1F12,Misdreavus,Land
+Lost Cave 1F12,Murkrow,Land
+Lost Cave 1F12,Zubat,Land
+Lost Cave 1F13,Duskull,Land
+Lost Cave 1F13,Gastly,Land
+Lost Cave 1F13,Golbat,Land
+Lost Cave 1F13,Haunter,Land
+Lost Cave 1F13,Misdreavus,Land
+Lost Cave 1F13,Murkrow,Land
+Lost Cave 1F13,Zubat,Land
+Lost Cave 1F14,Gastly,Land
+Lost Cave 1F14,Golbat,Land
+Lost Cave 1F14,Haunter,Land
+Lost Cave 1F14,Misdreavus,Land
+Lost Cave 1F14,Murkrow,Land
+Lost Cave 1F14,Zubat,Land
+Lost Cave 1F2,Gastly,Land
+Lost Cave 1F2,Golbat,Land
+Lost Cave 1F2,Haunter,Land
+Lost Cave 1F2,Misdreavus,Land
+Lost Cave 1F2,Murkrow,Land
+Lost Cave 1F2,Zubat,Land
+Lost Cave 1F3,Gastly,Land
+Lost Cave 1F3,Golbat,Land
+Lost Cave 1F3,Haunter,Land
+Lost Cave 1F3,Misdreavus,Land
+Lost Cave 1F3,Purrloin,Land
+Lost Cave 1F3,Zubat,Land
+Lost Cave 1F4,Gastly,Land
+Lost Cave 1F4,Golbat,Land
+Lost Cave 1F4,Haunter,Land
+Lost Cave 1F4,Misdreavus,Land
+Lost Cave 1F4,Murkrow,Land
+Lost Cave 1F4,Zubat,Land
+Lost Cave 1F5,Gastly,Land
+Lost Cave 1F5,Golbat,Land
+Lost Cave 1F5,Haunter,Land
+Lost Cave 1F5,Misdreavus,Land
+Lost Cave 1F5,Murkrow,Land
+Lost Cave 1F5,Zubat,Land
+Lost Cave 1F6,Gastly,Land
+Lost Cave 1F6,Golbat,Land
+Lost Cave 1F6,Haunter,Land
+Lost Cave 1F6,Misdreavus,Land
+Lost Cave 1F6,Murkrow,Land
+Lost Cave 1F6,Zubat,Land
+Lost Cave 1F7,Gastly,Land
+Lost Cave 1F7,Golbat,Land
+Lost Cave 1F7,Haunter,Land
+Lost Cave 1F7,Misdreavus,Land
+Lost Cave 1F7,Murkrow,Land
+Lost Cave 1F7,Zubat,Land
+Lost Cave 1F8,Gastly,Land
+Lost Cave 1F8,Golbat,Land
+Lost Cave 1F8,Haunter,Land
+Lost Cave 1F8,Misdreavus,Land
+Lost Cave 1F8,Murkrow,Land
+Lost Cave 1F8,Zubat,Land
+Lost Cave 1F9,Gastly,Land
+Lost Cave 1F9,Golbat,Land
+Lost Cave 1F9,Haunter,Land
+Lost Cave 1F9,Misdreavus,Land
+Lost Cave 1F9,Murkrow,Land
+Lost Cave 1F9,Zubat,Land
+Lost Cave Entrance,Golbat,Land
+Lost Cave Entrance,Zubat,Land
+Memorial Pillar,Hoppip,Land
+Memorial Pillar,Pidgey,Land
+Memorial Pillar,Spearow,Land
+Memorial Pillar,Wingull,Land
+Memorial Tower 1F,Ariados,Land
+Memorial Tower 1F,Bronzor,Land
+Memorial Tower 1F,Chingling,Land
+Memorial Tower 1F,Farfetchd,Land
+Memorial Tower 1F,Golett,Land
+Memorial Tower 1F,Meowth,Land
+Memorial Tower 1F,Pancham,Land
+Memorial Tower 1F,Sneasel,Land
+Memorial Tower 2F,Baltoy,Land
+Memorial Tower 2F,Bronzor,Land
+Memorial Tower 2F,Chingling,Land
+Memorial Tower 2F,Marill,Land
+Memorial Tower 2F,Marowak-Alolan,Land
+Memorial Tower 2F,Teddiursa,Land
+Memorial Tower 2F,Timburr,Land
+Memorial Tower 2F,Ursaring,Land
+Mt. Ember,Cyndaquil,Land
+Mt. Ember,Fearow,Land
+Mt. Ember,Geodude,Land
+Mt. Ember,Machop,Land
+Mt. Ember,Magmar,Land
+Mt. Ember,Numel,Land
+Mt. Ember,Ponyta,Land
+Mt. Ember,Rapidash,Land
+Mt. Ember,Spearow,Land
+Mt. Ember Ruby Path 1F,Gastly,Land
+Mt. Ember Ruby Path 1F,Geodude,Land
+Mt. Ember Ruby Path 1F,Graveler,Land
+Mt. Ember Ruby Path 1F,Machoke,Land
+Mt. Ember Ruby Path 1F,Machop,Land
+Mt. Ember Ruby Path 1F,Slugma,Land
+Mt. Ember Ruby Path B1F,Gastly,Land
+Mt. Ember Ruby Path B1F,Geodude,Land
+Mt. Ember Ruby Path B1F,Graveler,Land
+Mt. Ember Ruby Path B1F,Machoke,Land
+Mt. Ember Ruby Path B1F,Machop,Land
+Mt. Ember Ruby Path B1F,Nosepass,Land
+Mt. Ember Ruby Path B1F,Slugma,Land
+Mt. Ember Ruby Path B1F,Whismur,Land
+Mt. Ember Ruby Path B2F,Bronzor,Land
+Mt. Ember Ruby Path B2F,Gastly,Land
+Mt. Ember Ruby Path B2F,Geodude,Land
+Mt. Ember Ruby Path B2F,Graveler,Land
+Mt. Ember Ruby Path B2F,Machoke,Land
+Mt. Ember Ruby Path B2F,Machop,Land
+Mt. Ember Ruby Path B2F,Misdreavus,Land
+Mt. Ember Ruby Path B2F,Nosepass,Land
+Mt. Ember Ruby Path B2F,Slugma,Land
+Mt. Ember Ruby Path B2F,Whismur,Land
+Mt. Ember Ruby Path B3F,Magcargo,Land
+Mt. Ember Ruby Path B3F,Slugma,Land
+Mt. Ember Ruby Path B4F,Geodude,Land
+Mt. Ember Ruby Path B4F,Graveler,Land
+Mt. Ember Ruby Path B4F,Slugma,Land
+Mt. Ember Ruby Path B5F,Geodude,Land
+Mt. Ember Ruby Path B5F,Graveler,Land
+Mt. Ember Ruby Path B5F,Slugma,Land
+Mt. Ember Summit Path 1F,Bronzor,Land
+Mt. Ember Summit Path 1F,Geodude,Land
+Mt. Ember Summit Path 1F,Graveler,Land
+Mt. Ember Summit Path 1F,Machoke,Land
+Mt. Ember Summit Path 1F,Machop,Land
+Mt. Ember Summit Path 1F,Makuhita,Land
+Mt. Ember Summit Path 1F,Slugma,Land
+Mt. Ember Summit Path 1F,Wynaut,Land
+Mt. Ember Summit Path 2F,Bronzor,Land
+Mt. Ember Summit Path 2F,Geodude,Land
+Mt. Ember Summit Path 2F,Graveler,Land
+Mt. Ember Summit Path 2F,Machoke,Land
+Mt. Ember Summit Path 2F,Machop,Land
+Mt. Ember Summit Path 2F,Magby,Land
+Mt. Ember Summit Path 2F,Makuhita,Land
+Mt. Ember Summit Path 2F,Wynaut,Land
+Mt. Ember Summit Path 3F,Bronzor,Land
+Mt. Ember Summit Path 3F,Geodude,Land
+Mt. Ember Summit Path 3F,Graveler,Land
+Mt. Ember Summit Path 3F,Machoke,Land
+Mt. Ember Summit Path 3F,Machop,Land
+Mt. Ember Summit Path 3F,Makuhita,Land
+Mt. Ember Summit Path 3F,Wynaut,Land
+Pattern Bush,Caterpie,Land
+Pattern Bush,Heracross,Land
+Pattern Bush,Kakuna,Land
+Pattern Bush,Ledyba,Land
+Pattern Bush,Metapod,Land
+Pattern Bush,Pumpkaboo,Land
+Pattern Bush,Spinarak,Land
+Pattern Bush,Weedle,Land
+Ruin Valley,Fearow,Land
+Ruin Valley,Meowth,Land
+Ruin Valley,Natu,Land
+Ruin Valley,Psyduck,Land
+Ruin Valley,Slowpoke,Land
+Ruin Valley,Spearow,Land
+Ruin Valley,Wobbuffet,Land
+Ruin Valley,Wooper,Land
+Ruin Valley,Yanma,Land
+Sevault Canyon,Cubone,Land
+Sevault Canyon,Fearow,Land
+Sevault Canyon,Geodude,Land
+Sevault Canyon,Larvitar,Land
+Sevault Canyon,Marowak,Land
+Sevault Canyon,Onix,Land
+Sevault Canyon,Phanpy,Land
+Tanoby Ruins Dilford Chamber,Unown,Land
+Tanoby Ruins Liptoo Chamber,Unown,Land
+Tanoby Ruins Monean Chamber,Unown,Land
+Tanoby Ruins Rixy Chamber,Unown,Land
+Tanoby Ruins Scufib Chamber,Unown,Land
+Tanoby Ruins Viapois Chamber,Unown,Land
+Tanoby Ruins Weepth Chamber,Unown,Land
+Three Isle Path,Bronzor,Land
+Three Isle Path,Diglett,Land
+Three Isle Path,Geodude,Land
+Three Isle Path,Graveler,Land
+Three Isle Path,Makuhita,Land
+Three Isle Path,Nosepass,Land
+Three Isle Path,Whismur,Land
+Three Isle Port,Dunsparce,Land
+Treasure Beach,Fearow,Land
+Treasure Beach,Meowth,Land
+Treasure Beach,Persian,Land
+Treasure Beach,Ponyta,Land
+Treasure Beach,Spearow,Land
+Treasure Beach,Starly,Land
+Treasure Beach,Tangela,Land
+Water Path,Bellsprout,Land
+Water Path,Fearow,Land
+Water Path,Flabebe,Land
+Water Path,Gloom,Land
+Water Path,Meowth,Land
+Water Path,Oddish,Land
+Water Path,Persian,Land
+Water Path,Psyduck,Land
+Water Path,Slowpoke,Land
+Water Path,Spearow,Land
+Water Path,Weepinbell,Land
+Berry Forest,Golduck,Surf
+Berry Forest,Magikarp,Surf
+Berry Forest,Marill,Surf
+Berry Forest,Poliwag,Surf
+Berry Forest,Psyduck,Surf
+Berry Forest,Slowbro,Surf
+Bond Bridge,Gyarados,Surf
+Bond Bridge,Horsea,Surf
+Bond Bridge,Krabby,Surf
+Bond Bridge,Magikarp,Surf
+Bond Bridge,Seadra,Surf
+Bond Bridge,Slowpoke,Surf
+Bond Bridge,Tentacool,Surf
+Bond Bridge,Tentacruel,Surf
+Cape Brink,Goldeen,Surf
+Cape Brink,Golduck,Surf
+Cape Brink,Gyarados,Surf
+Cape Brink,Magikarp,Surf
+Cape Brink,Psyduck,Surf
+Cape Brink,Shellder,Surf
+Cape Brink,Slowbro,Surf
+Cape Brink,Slowpoke,Surf
+Cape Brink,Staryu,Surf
+Chrono Cross,Gyarados,Surf
+Chrono Cross,Hoppip,Surf
+Chrono Cross,Horsea,Surf
+Chrono Cross,Krabby,Surf
+Chrono Cross,Magikarp,Surf
+Chrono Cross,Mantyke,Surf
+Chrono Cross,Seadra,Surf
+Chrono Cross,Shellder,Surf
+Chrono Cross,Slowpoke,Surf
+Five Island,Hoppip,Surf
+Five Island,Horsea,Surf
+Five Island,Krabby,Surf
+Five Island,Magikarp,Surf
+Five Island,Psyduck,Surf
+Five Island,Shellder,Surf
+Five Island,Slowpoke,Surf
+Five Island,Staryu,Surf
+Five Island,Tentacool,Surf
+Five Island,Tentacruel,Surf
+Five Isle Meadow,Hoppip,Surf
+Five Isle Meadow,Horsea,Surf
+Five Isle Meadow,Krabby,Surf
+Five Isle Meadow,Magikarp,Surf
+Five Isle Meadow,Tentacool,Surf
+Five Isle Meadow,Tentacruel,Surf
+Four Island,Chinchou,Surf
+Four Island,Corsola,Surf
+Four Island,Goldeen,Surf
+Four Island,Golduck,Surf
+Four Island,Gyarados,Surf
+Four Island,Lotad,Surf
+Four Island,Magikarp,Surf
+Four Island,Marill,Surf
+Four Island,Poliwag,Surf
+Four Island,Psyduck,Surf
+Four Island,Surskit,Surf
+Four Island,Tentacool,Surf
+Four Island,Tentacruel,Surf
+Four Island,Wingull,Surf
+Four Island,Wooper,Surf
+Icefall Back Cave,Gyarados,Surf
+Icefall Back Cave,Horsea,Surf
+Icefall Back Cave,Krabby,Surf
+Icefall Back Cave,Lapras,Surf
+Icefall Back Cave,Magikarp,Surf
+Icefall Back Cave,Seadra,Surf
+Icefall Back Cave,Tentacool,Surf
+Icefall Cave 1F,Goldeen,Surf
+Icefall Cave 1F,Horsea,Surf
+Icefall Cave 1F,Krabby,Surf
+Icefall Cave 1F,Magikarp,Surf
+Icefall Cave 1F,Seadra,Surf
+Icefall Cave 1F,Seel,Surf
+Icefall Cave 1F,Shellder,Surf
+Icefall Cave Entrance,Dewgong,Surf
+Icefall Cave Entrance,Goldeen,Surf
+Icefall Cave Entrance,Gyarados,Surf
+Icefall Cave Entrance,Magikarp,Surf
+Icefall Cave Entrance,Marill,Surf
+Icefall Cave Entrance,Poliwag,Surf
+Icefall Cave Entrance,Poliwhirl,Surf
+Icefall Cave Entrance,Seel,Surf
+Icefall Cave Entrance,Slowpoke,Surf
+Icefall Cave Entrance,Wooper,Surf
+Kindle Road,Gyarados,Surf
+Kindle Road,Horsea,Surf
+Kindle Road,Kingler,Surf
+Kindle Road,Krabby,Surf
+Kindle Road,Magikarp,Surf
+Kindle Road,Psyduck,Surf
+Kindle Road,Slowpoke,Surf
+Kindle Road,Tentacool,Surf
+Kindle Road,Tentacruel,Surf
+Kindle Road,Wailmer,Surf
+Memorial Pillar,Hoppip,Surf
+Memorial Pillar,Horsea,Surf
+Memorial Pillar,Kingler,Surf
+Memorial Pillar,Krabby,Surf
+Memorial Pillar,Magikarp,Surf
+Memorial Pillar,Psyduck,Surf
+Memorial Pillar,Qwilfish,Surf
+Memorial Pillar,Remoraid,Surf
+Memorial Pillar,Seadra,Surf
+Memorial Pillar,Slowpoke,Surf
+Memorial Pillar,Tentacool,Surf
+Memorial Pillar,Tentacruel,Surf
+One Island,Goldeen,Surf
+One Island,Gyarados,Surf
+One Island,Horsea,Surf
+One Island,Kingler,Surf
+One Island,Krabby,Surf
+One Island,Magikarp,Surf
+One Island,Psyduck,Surf
+One Island,Seadra,Surf
+One Island,Shellder,Surf
+One Island,Slowpoke,Surf
+One Island,Staryu,Surf
+One Island,Tentacool,Surf
+One Island,Tentacruel,Surf
+One Island,Wailmer,Surf
+Outcast Island,Gyarados,Surf
+Outcast Island,Horsea,Surf
+Outcast Island,Kingler,Surf
+Outcast Island,Krabby,Surf
+Outcast Island,Magikarp,Surf
+Outcast Island,Psyduck,Surf
+Outcast Island,Qwilfish,Surf
+Outcast Island,Remoraid,Surf
+Outcast Island,Seadra,Surf
+Outcast Island,Slowpoke,Surf
+Outcast Island,Tentacool,Surf
+Outcast Island,Tentacruel,Surf
+Resort Gorgeous,Gyarados,Surf
+Resort Gorgeous,Hoppip,Surf
+Resort Gorgeous,Horsea,Surf
+Resort Gorgeous,Krabby,Surf
+Resort Gorgeous,Magikarp,Surf
+Resort Gorgeous,Remoraid,Surf
+Resort Gorgeous,Seadra,Surf
+Resort Gorgeous,Slowpoke,Surf
+Resort Gorgeous,Staryu,Surf
+Ruin Valley,Gyarados,Surf
+Ruin Valley,Krabby,Surf
+Ruin Valley,Magikarp,Surf
+Ruin Valley,Marill,Surf
+Ruin Valley,Poliwag,Surf
+Ruin Valley,Wooper,Surf
+Tanoby Ruins,Gyarados,Surf
+Tanoby Ruins,Horsea,Surf
+Tanoby Ruins,Kingler,Surf
+Tanoby Ruins,Krabby,Surf
+Tanoby Ruins,Magikarp,Surf
+Tanoby Ruins,Mantine,Surf
+Tanoby Ruins,Mantine,Surf
+Tanoby Ruins,Psyduck,Surf
+Tanoby Ruins,Remoraid,Surf
+Tanoby Ruins,Seadra,Surf
+Tanoby Ruins,Slowpoke,Surf
+Tanoby Ruins,Tentacool,Surf
+Tanoby Ruins,Tentacruel,Surf
+Trainer Tower,Horsea,Surf
+Trainer Tower,Krabby,Surf
+Trainer Tower,Magikarp,Surf
+Trainer Tower,Mantine,Surf
+Trainer Tower,Qwilfish,Surf
+Trainer Tower,Seadra,Surf
+Trainer Tower,Tentacool,Surf
+Trainer Tower,Tentacruel,Surf
+Treasure Beach,Frillish,Surf
+Treasure Beach,Gyarados,Surf
+Treasure Beach,Horsea,Surf
+Treasure Beach,Kingler,Surf
+Treasure Beach,Krabby,Surf
+Treasure Beach,Magikarp,Surf
+Treasure Beach,Psyduck,Surf
+Treasure Beach,Seadra,Surf
+Treasure Beach,Tentacool,Surf
+Treasure Beach,Tentacruel,Surf
+Water Labyrinth,Goldeen,Surf
+Water Labyrinth,Gyarados,Surf
+Water Labyrinth,Hoppip,Surf
+Water Labyrinth,Horsea,Surf
+Water Labyrinth,Magikarp,Surf
+Water Labyrinth,Psyduck,Surf
+Water Labyrinth,Shellder,Surf
+Water Labyrinth,Tentacool,Surf
+Water Labyrinth,Tentacruel,Surf
+Water Path,Gyarados,Surf
+Water Path,Kingler,Surf
+Water Path,Krabby,Surf
+Water Path,Qwilfish,Surf
+Water Path,Remoraid,Surf
+Water Path,Seadra,Surf
+Water Path,Tentacool,Surf
+Water Path,Tentacruel,Surf

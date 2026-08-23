@@ -373,7 +373,7 @@ class MainApplication(tk.Tk):
             "Hoenn": "hoenn_spawns.csv",
             "Sinnoh": "sinnoh_spawns.csv",
             "Excavation": "excavation_spawns.csv",
-            "Sevii Islands": "sevii_islands_spawns.csv",
+            "Sevii Islands": "sevii_island_spawns.csv",
             "Pinkan Island": "pinkan_spawns.csv",
             "Easter Event Map": "breezy_spawns.csv",
             "Valentine Event Map": "aphrodia_spawns.csv",

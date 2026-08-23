@@ -209,14 +209,16 @@ class Tracker:
             encounter_name: Clean identifier matching target name records.
             terrain: Explicit subcategory descriptor representing current environment context.
         """
-        # 1. Isolate target mask queries safely
-        pokemon_mask = self.session_table.model.df["Pokemon"] == encounter_name
-        terrain_mask = self.session_table.model.df["Terrain"] == terrain
-        combined_mask = pokemon_mask & terrain_mask
+        # Create separate masks for each table
+        session_mask = (self.session_table.model.df["Pokemon"] == encounter_name) & \
+                    (self.session_table.model.df["Terrain"] == terrain)
 
-        # 2. Mutate state variables
-        self.session_table.model.df.loc[combined_mask, "Total"] += 1
-        self.historical_table.model.df.loc[combined_mask, "Total"] += 1
+        hist_mask = (self.historical_table.model.df["Pokemon"] == encounter_name) & \
+                    (self.historical_table.model.df["Terrain"] == terrain)
+
+        # Apply updates independently
+        self.session_table.model.df.loc[session_mask, "Total"] += 1
+        self.historical_table.model.df.loc[hist_mask, "Total"] += 1
 
         # 3. Cache sums ONCE up-front to prevent 4x array iterations
         session_total: int = self.session_table.model.df["Total"].sum()
@@ -273,17 +275,44 @@ class Tracker:
                     if sub_parts:
                         poke_name = f"Nidoran {sub_parts[0]}"
                 
-                self.current_poke = poke_name
-                bad_parsed_i = poke_name.replace("l", "I")
-                selected_terrain: str = self.terrain_var.get() if self.terrain_var else ""
+            self.current_poke = poke_name
+            selected_terrain: str = self.terrain_var.get() if self.terrain_var else ""
 
-                # Evaluate internal array lookups using clean matching strategies
-                df: pd.DataFrame = self.session_table.model.df
-                reg_match_exists: bool = not df[
-                    ((df["Pokemon"] == poke_name) & (df["Terrain"] == selected_terrain))
-                ].empty
-                bad_i_match_exists: bool = not df[
-                    ((df["Pokemon"] == bad_parsed_i) & (df["Terrain"] == selected_terrain))
-                ].empty
-                if reg_match_exists or bad_i_match_exists:
-                    self.update_table(poke_name, selected_terrain)
+            df: pd.DataFrame = self.session_table.model.df
+            terrain_df = df[df["Terrain"] == selected_terrain]
+            valid_names = terrain_df["Pokemon"].tolist()
+
+            # 1. Generate OCR Candidates
+            parsing_map = {"l": "I", "I": "l", "n": "h", "h": "n", "e": "a", "a": "e"}
+            candidates = {poke_name}
+            for char_from, char_to in parsing_map.items():
+                if char_from in poke_name:
+                    candidates.add(poke_name.replace(char_from, char_to))
+
+            matched_poke: str | None = None
+
+            # TIER 1: Exact Match (Safe for similar names)
+            for candidate in candidates:
+                if candidate in valid_names:
+                    matched_poke = candidate
+                    break
+
+            # TIER 2: Substring Match with Length Guardrail (Only runs if Tier 1 fails)
+            if not matched_poke:
+                # Sort candidates by length (descending) so longer names match first
+                sorted_candidates = sorted(candidates, key=len, reverse=True)
+                
+                for candidate in sorted_candidates:
+                    for official_name in valid_names:
+                        # Check if candidate is in official_name AND lengths are close
+                        if candidate.lower() in official_name.lower():
+                            if abs(len(candidate) - len(official_name)) <= 3:
+                                matched_poke = official_name
+                                break
+                    if matched_poke:
+                        break
+
+            # 3. Update table if a safe match was found
+            if matched_poke:
+                self.update_table(matched_poke, selected_terrain)
+                print("updated")
